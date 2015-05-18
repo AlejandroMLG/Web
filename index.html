@@ -1,87 +1,196 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <title>SHSH</title>
-<style>
-
-
-header{
-	background-color:#f3f1ea;
-	height:110px;
-	}
-footer{
-	background-color:#c6def4;
-	min-height:176px;
-	padding:50px;
-	text-align: right;
-	}
-
-.contenedor1024{
-	max-width:1168px;
-	min-width:320px;
-	margin:0px auto;
-	}
-
-.padding8{padding:8px;}
-
-
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.redes_sociales{
-	list-style:none;
-	padding:0px;
-	}
-.redes_sociales li{
-	display:inline;
-	padding-left:16px;
-	}
-
-</style>
 <link href="00_bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="00_css/estilos.css" rel="stylesheet" type="text/css">
+<link href="00_swiper/swiper.min.css" rel="stylesheet" type="text/css">
+    <style>
+    .swiper-container {
+		margin-bottom:20px;
+    }
+    .swiper-slide {
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
 </head>
 
 <body>
   <header>
-    <div class="contenedor1024">
-      <div class="padding8 pull-left">
+    <div class="contenedor1140">
+      <div class="pull-left h_logo">
         <img src="00_assets/logo.png"/>
+      </div>      
+      <div class="site-wrapper menu3_head pull-right">
+        <div class="site-wrapper-inner">
+          <div class=" text-center">
+            <label class="h_cantidad">99</label>
+            <img src="00_assets/h_carrito.png" class=""/>
+          </div>
+        </div>
       </div>
-      <div class="pull-right" style="background-color:#6eb939; height:110px; width:192px; border-bottom:3px solid #3b9727;"></div>
-      <div class="pull-right site-wrapper" style="background-color:#0055a5; height:110px; width:84px; border-bottom:3px solid #003393;">
-        <span class="site-wrapper-inner">
+      <div class="site-wrapper menu2_head pull-right">
+        <div class="site-wrapper-inner">
           <img src="00_assets/h_mama.png" class="center-block"/>
-        </span>
+        </div>
       </div>
-      <div class="pull-right site-wrapper" style="background-color:#fbb567; height:110px; width:84px; border-bottom:3px solid #f29636;">
-        <span class="site-wrapper-inner">
+      <div class="site-wrapper menu1_head pull-right">
+        <div class="site-wrapper-inner">
           <img src="00_assets/h_Search.png" class="center-block"/>
-        </span>
+        </div>
       </div>
+      
     </div>
   </header>
-  
-  <div class="contenedor1024">
-    <img src="00_assets/00_demo.jpg" width="100%">
+  <div class="h_buscar">
+    <p>
+      <input type="search" placeholder="Buscar...">
+      <span class="buscar_cerrar"><b>X</b></span>
+    </p>
+  </div>
+
+  <div class="contenedor1140">
+  <!--TABS-->
+    <ul class="nav-tab font22">
+      <li>
+          <p>&nbsp;Comprar por:</p>
+      </li>
+      <li class="nav-marcas active">
+        <a href="#">
+          <p>Marcas <span class="glyphicon glyphicon-chevron-down hidden-xs" aria-hidden="true"></span></p>
+        </a>
+      </li>
+      <li class="nav-etapas">
+        <a href="#">
+          <p>Tu etapa <span class="glyphicon glyphicon-chevron-down hidden-xs" aria-hidden="true"></span></p>
+        </a>
+      </li>
+      <li class="nav-categorias">
+        <a href="#">
+          <p>Categoría <span class="glyphicon glyphicon-chevron-down hidden-xs" aria-hidden="true"></span></p>
+        </a>
+      </li>
+    </ul>
+  <!--TABS-->    
   </div>
   
-  <footer>
-    <div class="contenedor1024">
-      <ul class="redes_sociales">
-        <li><img src="00_assets/icon_facebook.png"/></li>
-        <li><img src="00_assets/icon_twitter.png"/></li>
-        <li><img src="00_assets/icon_blog.png"/></li>
-      </ul>
-      <p><span><img src="00_assets/icon_call.png"/></span> ¿TIENES PREGUNTAS? LLÁMANOS AL (888) 759-4678</p>
+  <div class="fondo1" style="margin-bottom:20px;">
+    <ul class="marcas contenedor1140" id="marcas">
+      <li><a href="#"><img src="00_assets/m_Biogaia.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_CERELAC.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_Gerber.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_GOODCARE.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_Junior.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_Materna.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_NAN.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_NESTUM.png"></a></li>
+      <li><a href="#"><img src="00_assets/m_NIDO.png"></a></li>
+    </ul>
+    <ul class="etapas" id="etapas">
+      <li><a href="#"><img src="00_assets/etapa_01.png"></a></li>
+      <li><a href="#"><img src="00_assets/etapa_02.png"></a></li>
+      <li><a href="#"><img src="00_assets/etapa_03.png"></a></li>
+      <li><a href="#"><img src="00_assets/etapa_04.png"></a></li>
+    </ul>
+    <ul class="categorias contenedor1140" id="categorias">
+      <li><a href="#"><img src="00_assets/i_Pures.png"> purés</a></li>
+      <li><a href="#"><img src="00_assets/i_Postres.png"> postres</a></li>
+      <li><a href="#"><img src="00_assets/i_Yogurts.png"> yogurts</a></li>
+      <li><a href="#"><img src="00_assets/i_Jugos.png"> jugos</a></li>      
+      <li><a href="#"><img src="00_assets/i_Nectares.png"> néctares</a></li>
+      <li><a href="#"><img src="00_assets/i_Agua.png"> agua</a></li>
+      <li><a href="#"><img src="00_assets/i_Cereales.png"> cereales</a></li>
+      <li><a href="#"><img src="00_assets/i_Formulas.png"> fórmulas</a></li>
+      <li><a href="#"><img src="00_assets/i_Snacks.png"> snacks</a></li>
+      <li><a href="#"><img src="00_assets/i_Complementos.png"> complementos</a></li>
+      <li><a href="#"><img src="00_assets/i_Leches.png"> leches</a></li>
+    </ul>
+  </div>
+  
+  <div class="swiper-container contenedor1140">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-hash="slide1">
+        <div class="gradient1 padding48">
+          <p class="font42 col-lg-12 col-md-12 col-sm-12 col-xs-12 blanco">Papillas Gerber&reg;</p>
+          <span class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
+            <p class="caps font22 blanco">Segunda etapa</p>
+            <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+            <p class="font42">3x $49.90</p>
+            <button type="button" class="btn btn-azul caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+          </span>
+          <img class="col-lg-5 col-md-5 col-sm-6 col-xs-6" src="00_assets/Productos_01.png">
+        </div>      
+      </div>
+      <div class="swiper-slide" data-hash="slide2">
+        <div class="gradient3 padding48">
+          <p class="font42 col-lg-12 col-md-12 col-sm-12 col-xs-12 blanco">Papillas Gerber&reg;</p>
+          <span class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
+            <p class="caps font22 blanco">Segunda etapa</p>
+            <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+            <p class="font42">3x $49.90</p>
+            <button type="button" class="btn btn-azul caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+          </span>
+          <img class="col-lg-5 col-md-5 col-sm-6 col-xs-6" src="00_assets/Productos_01.png">
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination hidden-lg hidden-md hidden-sm"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next hidden-xs"></div>
+    <div class="swiper-button-prev hidden-xs"></div>
+  </div>
+  
+  <div class="contenedor1140">
+    <div class="col-lg-6 col-md-6 col-sm-6 second-prod">
+      <div class="gradient2">
+        <p class="font42 col-lg-12 col-md-12 col-sm-12 col-xs-12 verde">Nido&reg;</p>
+        <span class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="caps font22 verde">Sexta etapa</p>
+          <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p class="font22 caps">50% descuento</p>
+          <button type="button" class="btn btn-verde caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+        </span>
+        <img class="col-lg-6 col-md-6 col-sm-6 col-xs-6" src="00_assets/Productos_02.png">
+      </div>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 third-prod">
+      <div class="gradient3">
+        <p class="font42 col-lg-12 col-md-12 col-sm-12 col-xs-12 blanco">Nestum&reg;</p>
+        <span class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <p class="caps font22 blanco">Primera etapa</p>
+          <p class="blanco">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p class="font22 caps">50% descuento</p>
+          <button type="button" class="btn btn-azul caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+        </span>
+        <img class="col-lg-6 col-md-6 col-sm-6 col-xs-6" src="00_assets/Productos_03.png">
+      </div>
+    </div>    
+  </div>
+  
+  <div class="contenedor1140">
+    <p class="caps text-center azul font22">productos más vendidos</p>
+    <div style="height:326px; background-color:#333; margin-bottom:20px;"></div>
+  </div>
+  
+  <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="contenedor1140">
+      <p><img src="00_assets/icon_facebook.png"/> Siguenos en Facebook</p>
       <ul class="redes_sociales">
         <li>Politicas de privacidad</li>
         <li>Contacto</li>
@@ -90,5 +199,20 @@ footer{
       </ul>
     </div>
   </footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="00_js/funciones.js"></script>
+<script src="00_swiper/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        hashnav: true
+    });
+    </script>
 </body>
 </html>
