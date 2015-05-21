@@ -13,12 +13,7 @@
     $(selector).removeClass('active');
     $(this).addClass('active');
     });
-	
-	
-	function function_menu() {
-	document.getElementById("etapas").style.display = "none";
-	document.getElementById("categorias").style.display = "none";
-	}
+
 	
 	$(".nav-marcas").click(function(){
         $("#marcas").show();
@@ -37,17 +32,4 @@
 		$("#marcas").hide();
 		$("#etapas").hide();
     });
-	
-/*	var marca = '.nav-marcas.active';
-	var etapa = '.nav-etapas.active';		
-	function nav_menu() {
-        if("marca"){
-		(".marcas").style.display = 'table';}
-		if("etapa"){
-		(".etapas").style.display = 'block';};
-        }
-	
-	*/
-    
-	window.onload = function_menu;
 	

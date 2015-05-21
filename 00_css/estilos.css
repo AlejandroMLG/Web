@@ -1,10 +1,35 @@
 @charset "UTF-8";
-  html{
-	  font-size:12px;
-	  width:100%;
-	  min-width:320px;
-	  height:100%;
-	  }
+
+@font-face {
+    font-family: 'vagroundedregular';
+    src: url('../00_fonts/vagrounded/vagrounded-light-webfont.eot');
+    src: url('../00_fonts/vagrounded/vagrounded-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../00_fonts/vagrounded/vagrounded-light-webfont.woff') format('woff'),
+         url('../00_fonts/vagrounded/vagrounded-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'vagroundedbold';
+    src: url('../00_fonts/vagrounded/vagrounded-bold-webfont.eot');
+    src: url('../00_fonts/vagrounded/vagrounded-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../00_fonts/vagrounded/vagrounded-bold-webfont.woff') format('woff'),
+         url('../00_fonts/vagrounded/vagrounded-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+	font-size:12px;
+	width:100%;
+	min-width:320px;
+	height:100%;
+	}
 
 header{
 	background-color:#f3f1ea;
@@ -25,18 +50,32 @@ footer{
 
 .blanco{ color:#ffffff;}
 .verde{ color:#00a651;}
+.verde2{ color:#6eb939;}
 .azul{ color:#0055a5;}
 .azul2{ color:#062f7c;}
+.rosa{ color:#fbb567}
+.rojo{ color:#ff2e00;}
 .font12{ font-size:1.0rem;}
+.font16{ font-size:1.3rem;}
 .font22{ font-size:1.8rem;}
+.font30{ font-size:2.5rem;}
 .font42{ font-size:3.5rem;}
 .font64{ font-size:5.1rem;}
 .padding8{padding:8px;}
 .padding16{ padding:16px}
 .padding32{ padding:32px}
 .padding48{ padding:48px;}
+.margen-bottom20{ margin-bottom:20px;}
 .fondo1{background-color:#fcfcfb}
 .caps{ text-transform:uppercase;}
+.overflow{ overflow:hidden;}
+.outline-blanco{
+   text-shadow:
+   -2px -2px 1px #fff,  
+    2px -2px 1px #fff,
+    -2px 2px 1px #fff,
+     2px 2px 1px #fff;
+   }
 
 .site-wrapper {
   display: table;
@@ -48,6 +87,15 @@ footer{
   display: table-cell;
   vertical-align: middle;
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-family: 'vagroundedbold';
+	}
 
 .h_logo{padding:8px;}
 
@@ -81,8 +129,9 @@ footer{
 	float:right;
 	font-size:2.5rem;
 	color:#fbb567;
-	padding:0px 16px;
+	padding:0px 20px;
 	cursor:pointer;
+	font-weight:bold;
 	}
 
 .menu1_head{
@@ -185,6 +234,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	.nav-tab li.active a p,
 	.nav-tab li a:hover p{color:#888888;}
 	
+	
+	#etapas{ display:none;}
 	.etapas{
 		display: table;
 		table-layout: fixed;
@@ -217,6 +268,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		
 	.marcas li a img{ margin:20px 3px;}
 	
+	
+	#categorias{ display:none;}
 	.categorias{
 		text-transform:uppercase;
 		font-size:1rem;
@@ -240,11 +293,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	
 	.btn-verde {
 	  color: #fff;
+	  background-color: #6eb939;
+	  border-bottom:solid 3px #489313;
+	}
+	
+	.btn-verde-2 {
+	  color: #fff;
 	  background-color: #129f54;
 	  border-bottom:solid 3px #00792e;
 	}
 	
 	.btn:hover{ color:#fff;}
+	
+	.btnv2{
+		border-radius:25px;
+		padding:10px;
+		min-height:40px;
+		text-align:center;
+		outline:none;
+		font-size:1.3rem;
+		}
+	
+	.btnv2.justificado{	width:100%;}
+	
+	.btnv2rosa{
+		background-color:#FFFFFF;
+		color:#fbb567;
+		border:solid 2px #fbb567;
+		}
+		
+	.btnv2rosa:active,
+	.btnv2rosa:hover{
+		background-color:#fbb567;
+		color:#fff;
+		border:solid 2px #fbb567;
+		}
 	
 	.second-prod{ padding-left:0px; padding-right:10px; margin-bottom:20px;}
 	.third-prod{ padding-right:0px; padding-left:10px; margin-bottom:20px;}
@@ -269,6 +352,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
         -webkit-align-items: center;
         align-items: center;
     }
+
+.orange-button-prev {
+	content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' enable-background='new' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' enable-background='new' d='M22.5,0C34.9,0,45,9.6,45,21.5S34.9,43,22.5,43S0,33.4,0,21.5S10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M25,15.3l-6.5,7.1l6.5,7.3L23.8,31L16,22.5l7.8-8.5L25,15.3z'/></svg>");
+	height:45px;
+	width:45px;
+	float:left;
+	cursor:pointer;
+}
+
+
+.orange-button-next {
+	content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' d='M22.5,0C34.9,0,45,9.6,45,21.5C45,33.4,34.9,43,22.5,43S0,33.4,0,21.5C0,9.6,10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M19,29.7l6.5-7.1L19,15.3l1.2-1.3l7.8,8.5L20.2,31L19,29.7z'/></svg>");
+	height:45px;
+	width:45px;
+	float:right;
+	cursor:pointer;
+}
+
+.input-cantidad{
+	height: 35px;
+	width: 50px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+	color: #959595;
+	text-align: center;
+	-webkit-appearance:none;
+    -moz-appearance:    none;
+    appearance:         none;
+    border:none;
+    border-bottom: solid 3px #c5c5c5;
+	outline:0px;
+	margin-right:16px;
+	}
+
+.resena_img{ height:72px; width:72px; background-color:#dadada; float:left; margin-right:16px;}
+
+.resena,
+.estrellas{
+	list-style:none;
+	padding:0px;
+	}
+.estrellas li{
+	margin:4px;
+	float:left;
+	height:24px;
+	width:24px;
+	cursor:pointer;
+	}
+.estrellas li.star_in{ background-image:url(../00_assets/Star_in.png);}
+.estrellas li.star_out{ background-image:url(../00_assets/Star_out.png);}
+
+.share{height:29px; width:57px; padding:7px 0 0 31px; font-size:12px; margin:0px 7px; cursor:pointer;}
+.share.facebook{ background-image:url(../00_assets/compartir_01.png); }
+.share.twitter{ background-image:url(../00_assets/compartir_02.png);}
+.share.pinterest{ background-image:url(../00_assets/compartir_03.png);}
+
+.separador{ border-left:solid 1px #dadada}
 
 
 
@@ -296,6 +436,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	
 	.second-prod{ padding-right:0px;}
 	.third-prod{ padding-left:0px;}
+	
+	.redes_sociales li{ display:list-item; margin-bottom:16px;}
+	
+	.separador{ border-left: 0px; border-top:solid 1px #dadada;}
 	}
 
   @media screen and (max-width: 379px) {
@@ -309,5 +453,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	}
 	
 	.marcas li a img{ width:30%;}
+	
+
 
   }
