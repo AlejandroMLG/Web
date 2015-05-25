@@ -5,7 +5,7 @@
       <li>
         <div>
           <img src="00_assets/p1.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
+          <p><label>PAPILLA PLATANO</label></p>
           <p class="verde2 font30"><label>$11.00</label></p>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
@@ -21,7 +21,7 @@
       <li>
         <div>
           <img src="00_assets/p3.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
+          <p><label>PAPILLA ZANAHORIA</label></p>
           <p class="verde2 font30"><label>$11.00</label></p>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
@@ -29,7 +29,7 @@
       <li>
         <div>
           <img src="00_assets/p4.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
+          <p><label>YOUGURT DE MANZANA CON FRESA</label></p>
           <p class="verde2 font30"><label>$11.00</label></p>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
@@ -37,7 +37,7 @@
       <li>
         <div>
           <img src="00_assets/p5.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
+          <p><label>PAPILLA DE PERA</label></p>
           <p class="verde2 font30"><label>$11.00</label></p>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
@@ -45,7 +45,7 @@
       <li>
         <div>
           <img src="00_assets/p6.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
+          <p><label>PAPILLA DE MANZANA</label></p>
           <p class="verde2 font30"><label>$11.00</label></p>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>

@@ -33,3 +33,10 @@
 		$("#etapas").hide();
     });
 	
+
+    $("#resena_cerrar").click(function(){
+        $("#resena_form").slideUp();
+    });
+    $("#resena_btn").click(function(){
+        $("#resena_form").slideDown();
+    });

@@ -1,4 +1,5 @@
 <% Response.WriteFile("header.aspx") %>
+
   <div class="contenedor1140 overflow">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
       <div class="gradient1">
@@ -52,16 +53,47 @@
       <button class="btnv2 btnv2rosa justificado">Ver informaci&oacute;n nutrimental</button>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+
     </div>
   </div>
 
 <% Response.WriteFile("mas_vendidos.aspx") %>
 
   <div class="contenedor1140 overflow padding16">
-    <p><span class="azul font22">Rese&ntilde;a </span><button class="btnv2 btnv2rosa">Agregar rese&ntilde;a <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
+    <p><span class="azul font22">Rese&ntilde;a </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar rese&ntilde;a <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
+    
+    <form class="padding16 fondo2" id="resena_form">
+      <h4 class="azul overflow"><div class="pull-left">Escribe tu rese&ntilde;a</div><a href="#null" class="pull-right" id="resena_cerrar">Cerrar <span class="glyphicon glyphicon-remove-sign"></span></a></h4>
+      <div class="overflow input_resena">
+        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
+          <label>Nombre: </label>
+          <input type="text" required>
+        </div>
+        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12"><label>E-mail: </label><input type="email" required></div>
+        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
+          <label>Comentarios: </label>
+          <textarea required></textarea>
+        </div>
+        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
+          <label>Tu calificacion: </label>
+          <ul class="estrellas">
+            <li class="star_out"></li>
+            <li class="star_out"></li>
+            <li class="star_out"></li>
+            <li class="star_out"></li>
+            <li class="star_out"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="overflow padding16">
+        <p class="pull-left"><input type="checkbox"> Acepto los <a href="#null">Terminos y condiciones</a> del sitio y <a href="#null">politicas de privacidad</a></p>
+        <button type="send" class="btn btn-rosa caps pull-right">Enviar</button>
+      </div>
+    </form>
+    
     <ul class="resena">
       <li class="overflow">
-        <figure class="resena_img"></figure>
+        <figure class="resena_img"><img src="00_assets/foto.jpg"></figure>
         <div class="pull-left">
           <h4 class="azul">Gabriela Hernandez</h4>
           <div class="overflow">
@@ -74,11 +106,11 @@
               <li class="star_out"></li>
             </ul>
           </div>
-          <p class="font16">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
         </div>
       </li>
       <li class="overflow">
-        <figure class="resena_img"></figure>
+        <figure class="resena_img"><img src="00_assets/foto.jpg"></figure>
         <div class="pull-left">
           <h4 class="azul">Gabriela Hernandez</h4>
           <div class="overflow">
@@ -91,11 +123,11 @@
               <li class="star_out"></li>
             </ul>
           </div>
-          <p class="font16">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
         </div>
       </li>
       <li class="overflow">
-        <figure class="resena_img"></figure>
+        <figure class="resena_img"><img src="00_assets/foto.jpg"></figure>
         <div class="pull-left">
           <h4 class="azul">Gabriela Hernandez</h4>
           <div class="overflow">
@@ -108,10 +140,31 @@
               <li class="star_out"></li>
             </ul>
           </div>
-          <p class="font16">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+          <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum. Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
         </div>
       </li>
     </ul>
+    
+    <nav>
+      <ul class="pagination pull-right">
+        <li>
+          <a href="#null" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="active"><a href="#null">1</a></li>
+        <li><a href="#null">2</a></li>
+        <li><a href="#null">3</a></li>
+        <li><a href="#null">4</a></li>
+        <li><a href="#null">5</a></li>
+        <li>
+          <a href="#null" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
   </div>
 
 <% Response.WriteFile("footer.aspx") %>
