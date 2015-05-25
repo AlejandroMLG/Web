@@ -11,5 +11,6 @@
   </footer>
 
 <script src="00_js/funciones.js"></script>
+<script src="00_bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

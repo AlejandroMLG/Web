@@ -418,7 +418,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	}
 
 .estrellas li{
-	margin:4px;
+	margin:16px 4px;
 	float:left;
 	height:24px;
 	width:24px;

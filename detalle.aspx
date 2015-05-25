@@ -14,7 +14,7 @@
       <h2 class="azul"><label>Gerber&reg; Papilla de Manzana</label></h2>
       <h4 class="caps"><label class="rosa">2da etapa</label><small> / Contenido <label>170g.</label></small></h4>
       <p>Cantidad: <input type="number" class="input-cantidad" value="1"><button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></p>
-      <p>
+      <div class="overflow">
         <ul class="estrellas">
           <li class="star_in"></li>
           <li class="star_in"></li>
@@ -23,7 +23,7 @@
           <li class="star_out"></li>
         </ul>
         <span class="rosa font22">&nbsp;<label>115</label> rese&ntilde;as</span>
-      </p><br>
+      </div>
       <p>Compartir: <label class="share facebook">1k</label><label class="share twitter">200</label><label class="share pinterest">456</label></p>
     </div>
     
