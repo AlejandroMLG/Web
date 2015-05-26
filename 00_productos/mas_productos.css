@@ -41,7 +41,7 @@ display:none;
 .nbs-flexisel-item img {
     cursor: pointer;
     position: relative;
-	width:256px;
+	width:180px;
 }
 
 /*** Navigation ***/
@@ -58,11 +58,13 @@ display:none;
 .nbs-flexisel-nav-left {
     left: 10px;
 	top:130px;
+	background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' enable-background='new' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' enable-background='new' d='M22.5,0C34.9,0,45,9.6,45,21.5S34.9,43,22.5,43S0,33.4,0,21.5S10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M25,15.3l-6.5,7.1l6.5,7.3L23.8,31L16,22.5l7.8-8.5L25,15.3z'/></svg>");
 	content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' enable-background='new' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' enable-background='new' d='M22.5,0C34.9,0,45,9.6,45,21.5S34.9,43,22.5,43S0,33.4,0,21.5S10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M25,15.3l-6.5,7.1l6.5,7.3L23.8,31L16,22.5l7.8-8.5L25,15.3z'/></svg>");
 }
 
 .nbs-flexisel-nav-right {
     right: 10px;
 	top:130px;
+	background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' d='M22.5,0C34.9,0,45,9.6,45,21.5C45,33.4,34.9,43,22.5,43S0,33.4,0,21.5C0,9.6,10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M19,29.7l6.5-7.1L19,15.3l1.2-1.3l7.8,8.5L20.2,31L19,29.7z'/></svg>");
     content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' d='M22.5,0C34.9,0,45,9.6,45,21.5C45,33.4,34.9,43,22.5,43S0,33.4,0,21.5C0,9.6,10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M19,29.7l6.5-7.1L19,15.3l1.2-1.3l7.8,8.5L20.2,31L19,29.7z'/></svg>");
 }

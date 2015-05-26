@@ -16,19 +16,19 @@
 
 	
 	$(".nav-marcas").click(function(){
-        $("#marcas").show();
+        $("#marcas").slideToggle();
 		$("#etapas").hide();
 		$("#categorias").hide();
     });
 	
 	$(".nav-etapas").click(function(){
-        $("#etapas").show();
+        $("#etapas").slideToggle();
 		$("#marcas").hide();
 		$("#categorias").hide();
     });
 	
 	$(".nav-categorias").click(function(){
-        $("#categorias").show();
+        $("#categorias").slideToggle();
 		$("#marcas").hide();
 		$("#etapas").hide();
     });

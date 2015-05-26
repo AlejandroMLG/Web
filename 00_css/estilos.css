@@ -26,6 +26,7 @@
 
 html{
 	font-size:12px;
+	color:#464646;
 	width:100%;
 	min-width:320px;
 	height:100%;
@@ -205,7 +206,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		list-style:none;
 		padding:0px;
 		margin:20px 0 0 0;
-		font-size:1.2rem;
+		font-size:1.4rem;
 		}
 		
 	.etapas li,
@@ -235,7 +236,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	.nav-tab li.active a p,
 	.nav-tab li a:hover p{color:#888888;}
 	
-	
+	#marcas,
 	#etapas{ display:none;}
 	.etapas{
 		display: table;
@@ -366,6 +367,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
     }
 
 .orange-button-prev {
+	background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' enable-background='new' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' enable-background='new' d='M22.5,0C34.9,0,45,9.6,45,21.5S34.9,43,22.5,43S0,33.4,0,21.5S10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M25,15.3l-6.5,7.1l6.5,7.3L23.8,31L16,22.5l7.8-8.5L25,15.3z'/></svg>");
 	content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' enable-background='new' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' enable-background='new' d='M22.5,0C34.9,0,45,9.6,45,21.5S34.9,43,22.5,43S0,33.4,0,21.5S10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M25,15.3l-6.5,7.1l6.5,7.3L23.8,31L16,22.5l7.8-8.5L25,15.3z'/></svg>");
 	height:45px;
 	width:45px;
@@ -375,6 +377,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 
 
 .orange-button-next {
+	background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' d='M22.5,0C34.9,0,45,9.6,45,21.5C45,33.4,34.9,43,22.5,43S0,33.4,0,21.5C0,9.6,10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M19,29.7l6.5-7.1L19,15.3l1.2-1.3l7.8,8.5L20.2,31L19,29.7z'/></svg>");
 	content: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 45 45'><path fill='%23fb880e' d='M22.5,43C10.2,43,0.3,33.6,0,22c0,0.2,0,0.3,0,0.5C0,34.9,10.1,45,22.5,45S45,34.9,45,22.5c0-0.2,0-0.3,0-0.5C44.7,33.6,34.8,43,22.5,43z'/><path fill='%23fbb567' d='M22.5,0C34.9,0,45,9.6,45,21.5C45,33.4,34.9,43,22.5,43S0,33.4,0,21.5C0,9.6,10.1,0,22.5,0z'/><path fill='%23FFFFFF' stroke='%23ffffff' stroke-miterlimit='10' d='M19,29.7l6.5-7.1L19,15.3l1.2-1.3l7.8,8.5L20.2,31L19,29.7z'/></svg>");
 	height:45px;
 	width:45px;
@@ -418,7 +421,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	}
 
 .estrellas li{
-	margin:16px 4px;
+	margin:0px 4px 16px 4px;
 	float:left;
 	height:24px;
 	width:24px;
@@ -484,6 +487,56 @@ input[type=radio] + label span {
 input[type=radio]:checked + label span {
 	background: url(../00_assets/check_radio_sheet.png) -57px top no-repeat;
 }
+
+
+/*===========================CATALOGO===========================*/
+.catalogo{
+	padding:0px;
+	position:relative;
+	}
+.cat-descuento{
+	position:absolute;
+	top:-5px;
+	right:20px;
+	background-image:url(../00_assets/Descuento.png);
+	background-repeat:no-repeat;
+	width:62px;
+	height:90px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	padding-top:8px;
+	}
+
+.cat-descuento label{ margin-bottom:-5px;}
+
+.cat-prod{
+	background-color:#fcfcfb;
+	padding:16px 0px;
+	margin:0 8px 16px 8px;
+	border-top:solid 3px #f2bf0a;
+	}
+.cat-text{
+	width:160px;
+	margin:0px auto;
+	}
+
+
+.cat-select{ margin-bottom:16px;}
+.cat-select select{
+	height:34px;
+	background-color:#fcfcfb;
+	border-radius:6px;
+	width:100%;
+	outline:none;
+	border:none;
+	border-bottom:solid 3px #d3d3d1;
+	}
+	
+.precio-descuento{color:#9e0b0f; text-decoration:line-through; height:20px;}
+.cat-name{ color:inherit;}
+.cat-name label{ height:40px; cursor:pointer;}
+
 
 @media screen and (max-width: 768px) {
     html{font-size:10px;}

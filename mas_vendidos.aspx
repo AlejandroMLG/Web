@@ -3,50 +3,50 @@
   <h3 class="azul text-center">PRODUCTOS MÁS VENDIDOS</h3>
   <ul id="flexiselDemo3">
       <li>
-        <div>
-          <img src="00_assets/p1.jpg" />
-          <p><label>PAPILLA PLATANO</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
+        <div style="width:180px;">
+          <img src="00_assets/00_articulos/art_md_07.png" />
+          <a href="detalle.aspx" class="cat-name"><label>PAPILLA PLATANO</label></a><br>
+          <label class="verde2 font30">$11.00</label>
+          <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+        </div>
+      </li>
+      <li>
+        <div style="width:180px;">
+          <img src="00_assets/00_articulos/art_md_02.png" />
+          <a href="detalle.aspx" class="cat-name"><label>BARRA DE CEREAL</label></a><br>
+          <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
-          <img src="00_assets/p2.jpg" />
-          <p><label>BARRA DE CEREAL</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
+          <img src="00_assets/00_articulos/art_md_03.png" />
+          <a href="detalle.aspx" class="cat-name"><label>PAPILLA ZANAHORIA</label></a><br>
+          <label class="verde2 font30">$11.00</label>
+          <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+        </div>
+      </li>
+      <li style="width:180px;">
+        <div style="width:180px;">
+          <img src="00_assets/00_articulos/art_md_04.png" />
+          <a href="detalle.aspx" class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></a><br>
+          <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
-        <div>
-          <img src="00_assets/p3.jpg" />
-          <p><label>PAPILLA ZANAHORIA</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
+        <div style="width:180px;">
+          <img src="00_assets/00_articulos/art_md_05.png" />
+          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE PERA</label></a><br>
+          <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
-        <div>
-          <img src="00_assets/p4.jpg" />
-          <p><label>YOUGURT DE MANZANA CON FRESA</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
-          <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img src="00_assets/p5.jpg" />
-          <p><label>PAPILLA DE PERA</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
-          <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
-        </div>
-      </li>
-      <li>
-        <div>
-          <img src="00_assets/p6.jpg" />
-          <p><label>PAPILLA DE MANZANA</label></p>
-          <p class="verde2 font30"><label>$11.00</label></p>
+        <div style="width:180px;">
+          <img src="00_assets/00_articulos/art_md_06.png" />
+          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE MANZANA</label></a><br>
+          <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>

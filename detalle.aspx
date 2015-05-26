@@ -1,4 +1,6 @@
 <% Response.WriteFile("header.aspx") %>
+  <link rel="stylesheet" href="00_video/flexslider.css" type="text/css"/>
+  <script src="00_video/modernizr.js"></script>
 
   <div class="contenedor1140 overflow">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -52,8 +54,15 @@
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Vitamina C</div>
       <button class="btnv2 btnv2rosa justificado">Ver informaci&oacute;n nutrimental</button>
     </div>
-    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">    
+      <div class="flexslider">
+        <ul class="slides">
+          <li><iframe id="player_1" src="http://player.vimeo.com/video/39683393?api=1&amp;player_id=player_1" width="500" height="317"></iframe></li>
+          <li><img src="00_assets/00_video/kitchen_adventurer_lemon.jpg" /></li>
+          <li><img src="00_assets/00_video/kitchen_adventurer_donut.jpg" /></li>
+          <li><img src="00_assets/00_video/kitchen_adventurer_caramel.jpg" /></li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -168,3 +177,41 @@
   </div>
 
 <% Response.WriteFile("footer.aspx") %>
+  <script defer src="00_video/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      var player = document.getElementById('player_1');
+      $f(player).addEvent('ready', ready);
+      function addEvent(element, eventName, callback) {
+        (element.addEventListener) ? element.addEventListener(eventName, callback, false) : element.attachEvent(eventName, callback, false);
+      }
+      function ready(player_id) {
+        var froogaloop = $f(player_id);
+        froogaloop.addEvent('play', function(data) {
+          $('.flexslider').flexslider("pause");
+        });
+        froogaloop.addEvent('pause', function(data) {
+          $('.flexslider').flexslider("play");
+        });
+      }
+      $(".flexslider")
+        .fitVids()
+        .flexslider({
+          animation: "slide",
+          useCSS: false,
+          animationLoop: false,
+          smoothHeight: true,
+          start: function(slider){
+            $('body').removeClass('loading');
+          },
+          before: function(slider){
+            $f(player).api('pause');
+          }
+      });
+    });
+  </script>
+  <script src="00_video/froogaloop.js"></script>
+  <script src="00_video/jquery.fitvid.js"></script>

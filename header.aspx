@@ -47,11 +47,11 @@
 
   <div class="contenedor1140">
   <!--TABS-->
-    <ul class="nav-tab font22">
+    <ul class="nav-tab">
       <li class="hidden-xs">
           <p>&nbsp;Comprar por:</p>
       </li>
-      <li class="nav-marcas active">
+      <li class="nav-marcas">
         <a href="#">
           <p>Marcas <span class="glyphicon glyphicon-chevron-down hidden-xs" aria-hidden="true"></span></p>
         </a>
@@ -72,33 +72,33 @@
   
   <div class="fondo1 margen-bottom20">
     <ul class="marcas contenedor1140" id="marcas">
-      <li><a href="#"><img src="00_assets/m_Biogaia.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_CERELAC.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_Gerber.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_GOODCARE.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_Junior.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_Materna.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_NAN.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_NESTUM.png"></a></li>
-      <li><a href="#"><img src="00_assets/m_NIDO.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_Biogaia.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_CERELAC.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_Gerber.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_GOODCARE.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_Junior.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_Materna.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_NAN.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_NESTUM.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/m_NIDO.png"></a></li>
     </ul>
     <ul class="etapas" id="etapas">
-      <li><a href="#"><img src="00_assets/etapa_01.png"></a></li>
-      <li><a href="#"><img src="00_assets/etapa_02.png"></a></li>
-      <li><a href="#"><img src="00_assets/etapa_03.png"></a></li>
-      <li><a href="#"><img src="00_assets/etapa_04.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/etapa_01.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/etapa_02.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/etapa_03.png"></a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/etapa_04.png"></a></li>
     </ul>
     <ul class="categorias contenedor1140" id="categorias">
-      <li><a href="#"><img src="00_assets/i_Pures.png"> purés</a></li>
-      <li><a href="#"><img src="00_assets/i_Postres.png"> postres</a></li>
-      <li><a href="#"><img src="00_assets/i_Yogurts.png"> yogurts</a></li>
-      <li><a href="#"><img src="00_assets/i_Jugos.png"> jugos</a></li>      
-      <li><a href="#"><img src="00_assets/i_Nectares.png"> néctares</a></li>
-      <li><a href="#"><img src="00_assets/i_Agua.png"> agua</a></li>
-      <li><a href="#"><img src="00_assets/i_Cereales.png"> cereales</a></li>
-      <li><a href="#"><img src="00_assets/i_Formulas.png"> fórmulas</a></li>
-      <li><a href="#"><img src="00_assets/i_Snacks.png"> snacks</a></li>
-      <li><a href="#"><img src="00_assets/i_Complementos.png"> complementos</a></li>
-      <li><a href="#"><img src="00_assets/i_Leches.png"> leches</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Pures.png"> purés</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Postres.png"> postres</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Yogurts.png"> yogurts</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Jugos.png"> jugos</a></li>      
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Nectares.png"> néctares</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Agua.png"> agua</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Cereales.png"> cereales</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Formulas.png"> fórmulas</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Snacks.png"> snacks</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Complementos.png"> complementos</a></li>
+      <li><a href="catalogo.aspx"><img src="00_assets/i_Leches.png"> leches</a></li>
     </ul>
   </div>
