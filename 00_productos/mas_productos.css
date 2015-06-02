@@ -7,6 +7,8 @@ display:none;
 	margin-bottom:20px;
 }
 
+.nbs-flexisel-item div{width:180px !important;}
+
 .nbs-flexisel-container {
     position:relative;
     max-width:100%;

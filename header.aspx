@@ -21,28 +21,90 @@
         <div class="site-wrapper-inner">
           <div class=" text-center">
             <label class="h_cantidad">99</label>
-            <img src="00_assets/h_carrito.png" class=""/>
+            <img src="00_assets/h_carrito.png"/>
+            <p class="blanco hidden-xs">¡Mi carrito! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></p>
           </div>
         </div>
       </div>
-      <div class="site-wrapper menu2_head pull-right">
-        <div class="site-wrapper-inner">
-          <img src="00_assets/h_mama.png" class="center-block"/>
+      <a href="registro-1.aspx">
+        <div class="site-wrapper menu2_head pull-right">
+          <div class="site-wrapper-inner">
+            <img src="00_assets/h_mama.png" class="center-block"/>
+          </div>
         </div>
-      </div>
+      </a>
       <div class="site-wrapper menu1_head pull-right">
         <div class="site-wrapper-inner">
           <img src="00_assets/h_Search.png" class="center-block"/>
         </div>
-      </div>
-      
+      </div>      
     </div>
   </header>
   <div class="h_buscar">
     <p>
       <input type="search" placeholder="Buscar...">
-      <span class="buscar_cerrar"><b>X</b></span>
+      <span class="glyphicon glyphicon-remove-sign buscar_cerrar"></span>
     </p>
+  </div>
+  <div class="h_carrito">
+    <ul class="contenedor1140">
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <label>Papilla de manzana</label><br>
+          <label>$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1">
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label>$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+        </div>
+      </li>
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <label>Papilla de manzana</label><br>
+          <label>$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1">
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label>$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+        </div>
+      </li>
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <label>Papilla de manzana</label><br>
+          <label>$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1">
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label>$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+        </div>
+      </li>
+    </ul>
+    <div class="contenedor1140 padding32">      
+      <div class="text-right font30">
+        <a href="checkout-1.aspx" class="azul font30 pull-left">VER EL CARRITO <span class="glyphicon glyphicon-plus-sign"></span></a>
+        <label>Total:</label><label>$199.00</label><br>
+        <button class="caps btn btn-azul2">Continuar con checkout</button>
+        <p class="font16">Compra mínima debe ser de $150.</p>
+      </div>
+    </div>
   </div>
 
   <div class="contenedor1140">

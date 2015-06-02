@@ -3,7 +3,7 @@
   <h3 class="azul text-center">PRODUCTOS MÁS VENDIDOS</h3>
   <ul id="flexiselDemo3">
       <li>
-        <div style="width:180px;">
+        <div>
           <img src="00_assets/00_articulos/art_md_07.png" />
           <a href="detalle.aspx" class="cat-name"><label>PAPILLA PLATANO</label></a><br>
           <label class="verde2 font30">$11.00</label>
@@ -11,7 +11,7 @@
         </div>
       </li>
       <li>
-        <div style="width:180px;">
+        <div>
           <img src="00_assets/00_articulos/art_md_02.png" />
           <a href="detalle.aspx" class="cat-name"><label>BARRA DE CEREAL</label></a><br>
           <label class="verde2 font30">$11.00</label>
@@ -26,8 +26,8 @@
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
-      <li style="width:180px;">
-        <div style="width:180px;">
+      <li>
+        <div>
           <img src="00_assets/00_articulos/art_md_04.png" />
           <a href="detalle.aspx" class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></a><br>
           <label class="verde2 font30">$11.00</label>
@@ -35,7 +35,7 @@
         </div>
       </li>
       <li>
-        <div style="width:180px;">
+        <div>
           <img src="00_assets/00_articulos/art_md_05.png" />
           <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE PERA</label></a><br>
           <label class="verde2 font30">$11.00</label>
@@ -43,9 +43,9 @@
         </div>
       </li>
       <li>
-        <div style="width:180px;">
+        <div>
           <img src="00_assets/00_articulos/art_md_06.png" />
-          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE MANZANA</label></a><br>
+          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE MANGO</label></a><br>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>

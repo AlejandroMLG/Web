@@ -1,10 +1,10 @@
-<% Response.WriteFile("header.aspx") %>
+﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 overflow">
 
     <nav class="navbar col-lg-3 col-md-3 col-sm-3 col-xs-12 caps fondo1">
-      <div class="overflow">
+      <div class="overflow azul">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#misFiltros">
-          <span class="glyphicon glyphicon-menu-down"></span>
+          <span class="glyphicon glyphicon-chevron-down"></span>
         </button>
         <h3>Filtros</h3>
       </div>
@@ -17,43 +17,43 @@
         <div class="filtro-seccion">
           <h4>Categorias</h4>
           <input type="checkbox" id="r1" checked/>
-          <label for="r1">papilla<span></span></label>
+          <label for="r1">papilla<span class="pull-right"></span></label>
           <input type="checkbox" id="r2"/>
-          <label for="r2">postres<span></span></label>
+          <label for="r2">postres<span class="pull-right"></span></label>
           <input type="checkbox" id="r3"/>
-          <label for="r3">yogurt<span></span></label>
+          <label for="r3">yogurt<span class="pull-right"></span></label>
           <input type="checkbox" id="r4"/>
-          <label for="r4">jugos<span></span></label>
+          <label for="r4">jugos<span class="pull-right"></span></label>
           <input type="checkbox" id="r5"/>
-          <label for="r5">cereal<span></span></label>
+          <label for="r5">cereal<span class="pull-right"></span></label>
           <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
         </div>
         <div class="filtro-seccion">
           <h4>Ingredientes</h4>
           <input type="checkbox" id="i1" checked/>
-          <label for="i1">manzana<span></span></label>
+          <label for="i1">manzana<span class="pull-right"></span></label>
           <input type="checkbox" id="i2" checked/>
-          <label for="i2">platano<span></span></label>
+          <label for="i2">platano<span class="pull-right"></span></label>
           <input type="checkbox" id="i3"/>
-          <label for="i3">pera<span></span></label>
+          <label for="i3">pera<span class="pull-right"></span></label>
           <input type="checkbox" id="i4"/>
-          <label for="i4">ciruela pasa<span></span></label>
+          <label for="i4">ciruela pasa<span class="pull-right"></span></label>
           <input type="checkbox" id="i5"/>
-          <label for="i5">mango<span></span></label>        
+          <label for="i5">mango<span class="pull-right"></span></label>        
           <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
         </div>
         <div class="filtro-seccion">
           <h4>Presentaciones</h4>
           <input type="checkbox" id="p1" checked/>
-          <label for="p1">170gr<span></span></label>
+          <label for="p1">170gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p2"/>
-          <label for="p2">190gr<span></span></label>
+          <label for="p2">190gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p3" checked/>
-          <label for="p3">220gr<span></span></label>
+          <label for="p3">220gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p4" checked/>
-          <label for="p4">270gr<span></span></label>
+          <label for="p4">270gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p5"/>
-          <label for="p5">300gr<span></span></label>          
+          <label for="p5">300gr<span class="pull-right"></span></label>          
           <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
         </div> 
       </div>
@@ -153,7 +153,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -189,7 +189,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -247,7 +247,7 @@
               <li class="star_in"></li>
               <li class="star_out"></li>
             </ul>
-            <button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
