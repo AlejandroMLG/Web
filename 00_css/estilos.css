@@ -20,13 +20,12 @@
          url('../00_fonts/vagrounded/vagrounded-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
 html{
 	font-size:12px;
-	color:#464646;
+	color:#898989;
 	width:100%;
 	min-width:320px;
 	height:100%;
@@ -155,8 +154,8 @@ h5{
 	}
 
 .h_carrito ul li{
-	padding:16px; 
-	height:100px; 
+	padding:8px; 
+	height:86px; 
 	overflow:hidden;
 	border-bottom:solid 1px #65ae32;
 	}
@@ -328,7 +327,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		}
 
 	.btn-big{
-	  padding:16px 8px;
+	  padding:8px;
 	  font-size: 17px;
 	  line-height: 1.3333333;
 	  border-radius: 6px;
@@ -372,6 +371,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	  border-bottom:solid 3px #00792e;
 	}
 	
+	.btn:focus,
 	.btn:hover{ color:#fff;}
 	
 	.btnv2{
@@ -618,11 +618,21 @@ input[type=radio]:checked + label span {
 #forma_02,
 #forma_03{ cursor:pointer;}
 
+#form-direccion,
+#mis-tarjetas,
+#mis-ordenes,
 #tu-bebe,
 #semanas,
 #forma_01_body,
 #forma_02_body,
 #forma_03_body{display:none;}
+
+
+#mis-tarjetas,
+#tarjetas{ list-style:none;}
+
+#mis-tarjetas li{ width:100%; overflow:hidden; border-bottom:solid 1px #dadada; padding:16px;}
+#tarjetas li{ width:100%; overflow:hidden; border-bottom:solid 1px #489313; padding:16px;}
 
 .registro-etapa figure{
 	float:left;
@@ -630,7 +640,99 @@ input[type=radio]:checked + label span {
 	cursor:pointer;
 	}
 .captcha{width:200px; float:left; margin-right:16px;}
-.registro-etapa figure h4{ font-size:1.7rem;} 
+.registro-etapa figure h4{ font-size:1.7rem;}
+
+.btn-pasos{
+	  padding:0px 8px 0px 8px;
+	  font-size: 17px;
+	  line-height: 1.3333333;
+	  border-radius: 6px;
+	  outline:none;
+	  text-transform:uppercase;
+	  text-align:center;
+	}
+
+/*============================================PERFIL============================================*/
+     .nav-info{
+		display: table;
+		max-width: 1140px;
+		width: 100%;
+		table-layout: fixed;
+		border-collapse: separate;
+		list-style:none;
+		padding:0px;
+		margin:20px 0 0 0;
+		font-size:1.6rem;
+		font-family:vagroundedbold;
+		}
+		
+	.nav-info li{
+		display: table-cell;
+		width:1%;
+		color:#898989;
+		float:none;
+	    vertical-align:bottom;
+		}
+		
+	.nav-info li a{
+		text-decoration:none;
+		}
+	
+	.nav-info li a p{
+		text-align:center;
+		padding:16px 0px 8px 0px;
+		color:#fff;
+		margin:0px 8px;
+		border-radius: 15px 15px 0px 0px;
+		}
+	
+	.nav-info li.active a p{
+		background-color:#f3f1ea;
+		border-right:solid 3px #e1e1e0;
+		color:#888888;
+		}
+	
+	.nav-azul li a p{
+		background-color:#0055a5;
+		border-right:solid 3px #003393;
+		}
+	.nav-verde li a p{
+		background-color:#6eb939;
+		border-right:3px solid #3b9727;
+		}
+		
+	.cambio-contraseña{ border-top:solid 1px #464646;}
+	
+	.foto-perfil { width:216px; border:solid 3px #003393;}
+	
+	.margin8h{ margin-left:8px; margin-right:8px;}
+	
+	.foto-cambiar{
+		position:relative;
+		width:200px;
+		padding:16px;
+		text-align:center;
+		}
+	
+	.foto-cambiar input[type=file] {
+    position: absolute;
+	top:0;
+	left:0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: red;
+    cursor: pointer;
+    display: block;
+	}
+	
+	.tabla-ordenes td{
+		padding:8px;
+		}
+
+
 @media screen and (max-width: 768px) {
     html{font-size:10px;}
 	
@@ -660,8 +762,14 @@ input[type=radio]:checked + label span {
 	
 	.separador{ border-left: 0px; border-top:solid 1px #dadada;}
 	
-	.registro-etapa figure img{ width:80px;}
+	.registro-etapa figure img{ width:80px;}	
 	}
+
+  @media screen and (max-width: 488px) {
+  .btn-pasos{
+		padding:16px 8px 0px 8px;
+		}
+  }
 
   @media screen and (max-width: 379px) {
     html{font-size:8px;}
@@ -674,4 +782,5 @@ input[type=radio]:checked + label span {
 	}
 	
 	.marcas li a img{ width:30%;}
+	
   }

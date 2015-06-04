@@ -47,10 +47,10 @@
       <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
       <h4 class="azul">Ingredientes</h4>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_Complementos.png"> Manzana</div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_Complementos.png"> Agua</div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_agua.png"> Vitamina C</div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_agua.png"> Manzana</div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Agua</div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_Complementos.png"> Manzana</div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_agua.png"> Agua</div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_agua.png"> Agua</div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Vitamina C</div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Vitamina C</div>
       <button class="btnv2 btnv2rosa justificado">Ver informaci&oacute;n nutrimental</button>
     </div>

@@ -1,10 +1,10 @@
   <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <div class="contenedor1140">
-      <p><img src="00_assets/icon_facebook.png"/> Siguenos en Facebook</p>
+      <p><img src="00_assets/icon_facebook.png"/> Síguenos en Facebook</p>
       <ul class="redes_sociales">
-        <li>Politicas de privacidad</li>
+        <li><a href="f_politicas.aspx">Políticas de privacidad</a></li>
         <li>Contacto</li>
-        <li>Términos y condiciones</li>
+        <li><a href="f_terminos.aspx">Términos y condiciones</a></li>
         <li>Nestlé © 2015 Todos los derechos reservados</li>
       </ul>
     </div>

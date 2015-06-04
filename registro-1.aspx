@@ -14,7 +14,7 @@
         <input type="password" maxlength="12" placeholder="Ingresa tu contraseña">
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
-        <a href="#">Olvide mi contraseña&nbsp;</a>
+        <a href="nueva-1.aspx">Olvide mi contraseña&nbsp;</a>
         <button class="caps btn btn-rosa">Ingresar</button>
       </div>
     </div>
@@ -51,6 +51,17 @@
         <label>*Confirmar contraseña</label>
         <input type="password" maxlength="12" required>
       </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p>Para crear tu contraseña, es necesario que tenga lo siguiente:</p>
+        <ul>
+          <li>Entre 6 y 12 caracteres</li>
+          <li>1 letra mayuscula</li>
+          <li>Letras en minúscula</li>
+          <li>Algún número</li>
+          <li>1 simbolo (@ # $ % ^ = &)</li>
+        </ul>
+      </div>
+
       <p>¿En que etapa estas?</p>
       <div class="registro-etapa overflow">
         <figure id="pre-concepcion">
@@ -65,7 +76,8 @@
           <img src="00_assets/reg_03.png" class="opacidad-media">
           <h4 class="azul">Ya nació mi bebé</h4>
         </figure>
-      </div>
+      </div>      
+
       <div class="margen-bottom20 overflow" id="semanas">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <p>¿Cuantas semanas tienes?</p>

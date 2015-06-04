@@ -1,16 +1,9 @@
 ﻿<% Response.WriteFile("header.aspx") %>
-<style>
-#tarjetas{ list-style:none;}
-#tarjetas li{ width:100%; overflow:hidden; border-bottom:solid 1px #489313; padding:16px;}
-
-</style>
-<link href="00_bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="00_css/estilos.css" rel="stylesheet" type="text/css">
   <div class="contenedor1140 overflow">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">1</span> <span class="font16 hidden-xs"> Carrito</span><span><img src="00_assets/paso1.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">2</span> <span class="font16 hidden-xs"> Envio </span><span><img src="00_assets/paso2.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps"><span class="paso_circulo">3</span> <span class="font16 hidden-xs"> Pago </span><span><img src="00_assets/paso3.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">4</span> <span class="font16 hidden-xs"> Confirmar</span><span><img src="00_assets/paso4.png" class="padding16v"></span></button></div>    
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">1</span> <span class="font16 hidden-xs"> Carrito</span><span><img src="00_assets/paso1.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">2</span> <span class="font16 hidden-xs"> Envío </span><span><img src="00_assets/paso2.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado"><span class="paso_circulo">3</span> <span class="font16 hidden-xs"> Pago </span><span><img src="00_assets/paso3.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">4</span> <span class="font16 hidden-xs"> Confirmar</span><span><img src="00_assets/paso4.png" class="padding16v"></span></div></div>    
   </div>
 
   <h1 class="contenedor1140 padding16 azul">Pago</h1>
@@ -38,43 +31,39 @@
     
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_01_body">
       <ul class="btn-verde padding16 overflow" id="tarjetas">
-        <li>
-          <div class="pull-left">
-            <input type="radio" class="hidden" name="radio2" id="r1" checked/>
-    	    <label for="r1"><span></span></label>
-          </div>
+        <li>          
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
+            <input type="radio" class="hidden" name="radio-dir" id="radio-dir1" checked/>
+            <label for="radio-dir1" class="azul"><span></span> Usar como dirección de Envío</label><br>
             <label>Tarjeta de crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
+            <button class="caps btn btn-rosa">Editar</button>
+          </div>
+        </li>
+        <li>          
+          <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
+          <div class="pull-left">
+            <input type="radio" class="hidden" name="radio-dir" id="radio-dir2"/>
+            <label for="radio-dir2" class="azul"><span></span> Usar como dirección de Envío</label><br>
+            <label>Tarjeta de crédito Mastercard</label><br>
+            <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
+            <button class="caps btn btn-rosa">Editar</button>          
           </div>
         </li>
         <li>
-          <div class="pull-left">
-            <input type="radio" class="hidden" name="radio2" id="r2"/>
-    	    <label for="r2"><span></span></label>
-          </div>
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
+            <input type="radio" class="hidden" name="radio-dir" id="radio-dir3"/>
+            <label for="radio-dir3" class="azul"><span></span> Usar como dirección de Envío</label><br>
             <label>Tarjeta de crédito Mastercard</label><br>
-            <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>            
-          </div>
-        </li>
-        <li>
-          <div class="pull-left">
-            <input type="radio" class="hidden" name="radio2" id="r3"/>
-    	    <label for="r3"><span></span></label>
-          </div>
-          <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
-          <div class="pull-left">
-            <label>Tarjeta de crédito Mastercard</label><br>
-            <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>            
+            <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br> 
+            <button class="caps btn btn-rosa">Editar</button>           
           </div>
         </li>
       </ul>
       <div class="contenedor1140 input_resena">
         <div class="padding16">
-          <button class="caps btn btn-rosa">Editar</button>
           <button class="caps btn btn-rosa">Agregar</button>
         </div>
         <div class="fondo2 padding16 overflow cat-select">
@@ -199,11 +188,11 @@
   </div>
 
   <hr class="container">
-  <h3 class="contenedor1140 padding16 azul">Dirección de envio</h3>
+  <h3 class="contenedor1140 padding16 azul">Dirección de envío</h3>
   <div class="contenedor1140 padding16 input_resena">
     <div class="margen-bottom20">
       <label>Sra. María Victoria Pérez</label><br>
-      <label>Orizaba #143 Int.17, Delegación Cuauhtemoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label>
+      <label>Orizaba #143 Int.17, Delegación Cuauhtémoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label>
     </div>
   </div>
   

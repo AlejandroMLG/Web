@@ -1,9 +1,9 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 overflow">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps"><span class="paso_circulo">1</span> <span class="font16 hidden-xs"> Carrito</span><span><img src="00_assets/paso1.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">2</span> <span class="font16 hidden-xs"> Envio </span><span><img src="00_assets/paso2.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">3</span> <span class="font16 hidden-xs"> Pago </span><span><img src="00_assets/paso3.png" class="padding16v"></span></button></div>
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn-big btn-azul3 justificado caps opacidad-media"><span class="paso_circulo">4</span> <span class="font16 hidden-xs"> Confirmar</span><span><img src="00_assets/paso4.png" class="padding16v"></span></button></div>    
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado"><span class="paso_circulo">1</span> <span class="font16 hidden-xs"> Carrito</span><span><img src="00_assets/paso1.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">2</span> <span class="font16 hidden-xs"> Envío </span><span><img src="00_assets/paso2.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">3</span> <span class="font16 hidden-xs"> Pago </span><span><img src="00_assets/paso3.png" class="padding16v"></span></div></div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado opacidad-media"><span class="paso_circulo">4</span> <span class="font16 hidden-xs"> Confirmar</span><span><img src="00_assets/paso4.png" class="padding16v"></span></div></div>    
   </div>
 
   <h1 class="contenedor1140 padding16 azul">Carrito de compras</h1>
@@ -105,7 +105,7 @@
          </figure>
          <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
            <h3>Entrega gratuita</h3>
-           <p>Minimo de compra</p>
+           <p>Mínimo de compra</p>
            <p><b>$570</b></p>
          </div>
        </div>
@@ -129,7 +129,7 @@
          </figure>
          <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
            <h3>Pago<br>seguro</h3>
-           <p>Pago por metodo</p>
+           <p>Pago por método</p>
            <p>Seguro ssc</p>
          </div>
        </div>

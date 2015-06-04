@@ -93,3 +93,42 @@
         $("#tu-bebe").slideDown();
 		$("#semanas").slideUp();
     });
+	
+	var selector4 = '.nav-azul li';
+    $(selector4).on('click', function(){
+    $(selector4).removeClass('active');
+    $(this).addClass('active');
+    });
+	
+	var selector5 = '.nav-verde li';
+    $(selector5).on('click', function(){
+    $(selector5).removeClass('active');
+    $(this).addClass('active');
+    });
+	
+	$("#verde-1").click(function(){
+        $("#mis-direcciones").slideDown();
+		$("#mis-tarjetas").slideUp();
+		$("#mis-ordenes").slideUp();
+    });
+	
+	$("#verde-2").click(function(){
+        $("#mis-direcciones").slideUp();
+		$("#mis-tarjetas").slideDown();
+		$("#mis-ordenes").slideUp();
+    });
+	
+	$("#verde-3").click(function(){
+        $("#mis-direcciones").slideUp();
+		$("#mis-tarjetas").slideUp();
+		$("#mis-ordenes").slideDown();
+    });
+	
+	
+	$("#add-direccion").click(function(){
+		$("#form-direccion").slideDown();
+    });
+	
+	$("#close-direccion").click(function(){
+		$("#form-direccion").slideUp();
+    });

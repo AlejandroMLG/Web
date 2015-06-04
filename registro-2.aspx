@@ -75,8 +75,9 @@
             <input type="text">
           </div>
         </div>
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
-        <a href="#"><button class="caps btn btn-rosa">Finalizar</button></a>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <a href="registro-1.aspx" class="pull-left"><button class="caps btn btn-rosa">Regresar</button></a>
+        <a href="perfil.aspx" class="pull-right"><button class="caps btn btn-rosa">Finalizar</button></a>
       </div>
     </div>
   </div>
