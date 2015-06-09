@@ -1,21 +1,22 @@
 ﻿<% Response.WriteFile("header.aspx") %>
+<style>
+</style>
   <div class="contenedor1140 overflow">
-
     <nav class="navbar col-lg-3 col-md-3 col-sm-3 col-xs-12 caps fondo1">
       <div class="overflow azul">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#misFiltros">
           <span class="glyphicon glyphicon-chevron-down"></span>
         </button>
-        <h3>Filtros</h3>
+        <h4>Filtros</h4>
       </div>
       <div class="collapse navbar-collapse" id="misFiltros">
         <div class="filtro-seccion">
-          <h4>Edad de tu Bebe</h4>
+          <p class="filtro-titulo">Edad de tu Bebé</p>
           <label>8 meses</label>
           <input type="range">
         </div>
         <div class="filtro-seccion">
-          <h4>Categorias</h4>
+          <p class="filtro-titulo">Categorías</p>
           <input type="checkbox" id="r1" checked/>
           <label for="r1">papilla<span class="pull-right"></span></label>
           <input type="checkbox" id="r2"/>
@@ -26,10 +27,10 @@
           <label for="r4">jugos<span class="pull-right"></span></label>
           <input type="checkbox" id="r5"/>
           <label for="r5">cereal<span class="pull-right"></span></label>
-          <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
+          <button class="btnv2 justificado btnv2gris caps bold">Ver más <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
         </div>
         <div class="filtro-seccion">
-          <h4>Ingredientes</h4>
+          <p class="filtro-titulo">Ingredientes</p>
           <input type="checkbox" id="i1" checked/>
           <label for="i1">manzana<span class="pull-right"></span></label>
           <input type="checkbox" id="i2" checked/>
@@ -40,10 +41,10 @@
           <label for="i4">ciruela pasa<span class="pull-right"></span></label>
           <input type="checkbox" id="i5"/>
           <label for="i5">mango<span class="pull-right"></span></label>        
-          <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
+          <button class="btnv2 justificado btnv2gris caps bold">Ver más <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
         </div>
         <div class="filtro-seccion">
-          <h4>Presentaciones</h4>
+          <p class="filtro-titulo">Presentaciones</p>
           <input type="checkbox" id="p1" checked/>
           <label for="p1">170gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p2"/>
@@ -54,7 +55,7 @@
           <label for="p4">270gr<span class="pull-right"></span></label>
           <input type="checkbox" id="p5"/>
           <label for="p5">300gr<span class="pull-right"></span></label>          
-          <button class="btnv2 justificado btnv2gris caps">Ver mas</button>
+          <button class="btnv2 justificado btnv2gris caps bold">Ver más <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></button>
         </div> 
       </div>
     </nav>
@@ -99,7 +100,7 @@
     
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
       
-      <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 caps">
+      <section class="caps overflow">
         <div class="pull-left cat-select col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <label>Ordenar por:</label><br>
           <select>
@@ -137,7 +138,7 @@
     
       <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="cat-descuento">
-          <label class="font30">20%</label>
+          <label class="font22">20%</label>
           <label>descuento</label>
         </div>
         <div class="cat-prod">
@@ -145,7 +146,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>PAPILLA PLATANO</label></a><br>
             <label class="precio-descuento">$18.00</label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>
@@ -163,7 +164,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>BARRA DE CEREAL</label></a><br>
             <label class="precio-descuento"></label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>
@@ -181,7 +182,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>PAPILLA ZANAHORIA</label></a><br>
             <label class="precio-descuento"></label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>
@@ -199,7 +200,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></a><br>
             <label class="precio-descuento"></label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>
@@ -213,7 +214,7 @@
       </div>
       <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="cat-descuento">
-          <label class="font30">20%</label>
+          <label class="font22">20%</label>
           <label>descuento</label>
         </div>
         <div class="cat-prod">
@@ -221,7 +222,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>PAPILLA PERA</label></a><br>
             <label class="precio-descuento">$16.00</label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>
@@ -239,7 +240,7 @@
           <div class="cat-text">
             <a href="detalle.aspx" class="cat-name"><label>PAPILLA MANGO</label></a><br>
             <label class="precio-descuento"></label><br>
-            <label class="verde2 font42">$11.00</label>
+            <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
               <li class="star_in"></li>
               <li class="star_in"></li>

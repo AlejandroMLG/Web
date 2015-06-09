@@ -1,21 +1,27 @@
-<% Response.WriteFile("header.aspx") %>
+﻿<% Response.WriteFile("header.aspx") %>
   <link rel="stylesheet" href="00_video/flexslider.css" type="text/css"/>
   <script src="00_video/modernizr.js"></script>
 
   <div class="contenedor1140 overflow">
-    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 catalogo">
+      <div class="cat-descuento">
+        <label class="font22">20%</label>
+        <label>descuento</label>
+      </div>
       <div class="gradient1">
         <img src="00_assets/00_articulos/art_01.png" class="center-block padding16 img-responsive">
       </div>
-      <div class="padding8">
-        <span class="orange-button-prev"></span>
-        <span class="orange-button-next"></span>
-      </div>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-      <h2 class="azul"><label>Gerber&reg; Papilla de Manzana</label></h2>
-      <h4 class="caps"><label class="rosa">2da etapa</label><small> / Contenido <label>170g.</label></small></h4>
-      <p>Cantidad: <input type="number" class="input-cantidad" value="1"><button type="button" class="btn btn-verde caps">A&Ntilde;ADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></p>
+      <h1 class="azul"><label>Gerber&reg; Papilla de Manzana</label></h1>
+      <h4><label class="rosa caps underline">2da etapa</label><small> / Contenido <label>170g.</label></small></h4>      
+      <label class="verde2 font30 bold">$11.00</label>&nbsp;
+      <label class="rojo2">Precio anterior: </label>
+      <label class="precio-descuento">$18.00</label>
+      <p>
+        <label class="padding8">Cantidad: <input type="number" class="input-cantidad" value="1"></label>
+        <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+      </p>
       <div class="overflow">
         <ul class="estrellas">
           <li class="star_in"></li>
@@ -24,19 +30,23 @@
           <li class="star_in"></li>
           <li class="star_out"></li>
         </ul>
-        <span class="rosa font22">&nbsp;<label>115</label> rese&ntilde;as</span>
+        <div class="rosa font22 line-8">&nbsp;<label>115</label> <span class="underline">reseñas</span></div>
       </div>
       <p>Compartir: <label class="share facebook">1k</label><label class="share twitter">200</label><label class="share pinterest">456</label></p>
     </div>
     
-    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 fondo1 padding8">
-      <h4 class="padding8">
-        <span>Otros sabores</span>
-        <a  href="#" class="rosa pull-right">Todos los sabores</a>
-      </h4>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center padding8"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center padding8 separador"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
-    </div>    
+    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 padding16v">
+      <div class="fondo1 overflow">
+        <h4 class="padding16h">
+          <span>Otros sabores</span>
+          <a  href="#" class="rosa pull-right underline">Todos los sabores</a>
+        </h4>
+        <div class="padding8 overflow">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps separador"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
+        </div>
+      </div>
+    </div>
   </div>
   
   <hr class="container">
@@ -52,7 +62,7 @@
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_agua.png"> Agua</div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Vitamina C</div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 padding8"><img src="00_assets/i_vitamina.png"> Vitamina C</div>
-      <button class="btnv2 btnv2rosa justificado">Ver informaci&oacute;n nutrimental</button>
+      <a href="00_assets/00_info/info.pdf" target="_blank"><button class="btnv2 btnv2rosa justificado">Ver información nutrimental</button></a>
     </div>
     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">    
       <div class="flexslider">
@@ -69,36 +79,11 @@
 <% Response.WriteFile("mas_vendidos.aspx") %>
 
   <div class="contenedor1140 overflow padding16">
-    <p><span class="azul font22">Rese&ntilde;a </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar rese&ntilde;a <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
+    <p><span class="azul font22">Reseña </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar reseña <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
     
-    <form class="padding16 fondo2" id="resena_form">
-      <h4 class="azul overflow"><div class="pull-left">Escribe tu rese&ntilde;a</div><a href="#null" class="pull-right" id="resena_cerrar">Cerrar <span class="glyphicon glyphicon-remove-sign"></span></a></h4>
-      <div class="overflow input_resena">
-        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
-          <label>Nombre: </label>
-          <input type="text" required>
-        </div>
-        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12"><label>E-mail: </label><input type="email" required></div>
-        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
-          <label>Comentarios: </label>
-          <textarea required></textarea>
-        </div>
-        <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
-          <label>Tu calificacion: </label>
-          <ul class="estrellas">
-            <li class="star_out"></li>
-            <li class="star_out"></li>
-            <li class="star_out"></li>
-            <li class="star_out"></li>
-            <li class="star_out"></li>
-          </ul>
-        </div>
-      </div>
-      <div class="overflow padding16">
-        <p class="pull-left"><input type="checkbox"> Acepto los <a href="#null">Terminos y condiciones</a> del sitio y <a href="#null">politicas de privacidad</a></p>
-        <button type="send" class="btn btn-rosa caps pull-right">Enviar</button>
-      </div>
-    </form>
+    <div id="resena_form">
+	  <% Response.WriteFile("resena.aspx") %>
+    </div>
     
     <ul class="resena">
       <li class="overflow">

@@ -55,19 +55,22 @@ footer{
 .azul2{ color:#062f7c;}
 .rosa{ color:#fbb567}
 .rojo{ color:#ff2e00;}
+.rojo2{ color:#9e0b0f;}
 .font12{ font-size:1.0rem;}
 .font16{ font-size:1.3rem;}
 .font22{ font-size:1.8rem;}
 .font30{ font-size:2.5rem;}
 .font42{ font-size:3.5rem;}
 .font64{ font-size:5.1rem;}
+.solid-font18{ font-size:18px;}
 .padding8{padding:8px;}
 .padding16{ padding:16px}
 .padding32{ padding:32px}
 .padding48{ padding:48px;}
-.padding16v{ padding:16px 0px;}
+.padding16v{ padding-top:16px; padding-bottom:16px;}
+.padding16h{ padding-left:16px; padding-right:16px}
 .margen-bottom20{ margin-bottom:20px;}
-.fondo1{background-color:#fcfcfb}
+.fondo1{background-color:#f9f9f7}
 .fondo2{ background-color:#f3f1ea;}
 .caps{ text-transform:uppercase;}
 .no-caps{ text-transform:none;}
@@ -79,6 +82,17 @@ footer{
     -2px 2px 1px #fff,
      2px 2px 1px #fff;
    }
+
+.ayuda-lateral{
+	position:fixed; 
+	width:70px; 
+	height:100%; 
+	display:table; 
+	right:0; 
+	z-index:2; 
+	text-align:center; 
+	color:#0078ca;
+	}
 
 .site-wrapper {
   display: table;
@@ -187,6 +201,23 @@ h5{
 	border-bottom:3px solid #003393;
 	cursor:pointer;
 }
+
+.menu2_head_logged{
+	height:110px; 
+	max-width:192px;
+	background-color:#f57e20; 
+	border-bottom:3px solid #ec4d0e;
+	cursor:pointer;
+}
+
+.menu2_head_logged img{
+	width:56px;
+	border:solid 1px #ffffff;
+	}
+
+.menu2_head_logged p{
+	max-height:22px;
+	}
 
 .menu3_head{
 	height:110px; 
@@ -327,7 +358,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		}
 
 	.btn-big{
-	  padding:8px;
+	  padding:8px 16px;
 	  font-size: 17px;
 	  line-height: 1.3333333;
 	  border-radius: 6px;
@@ -400,7 +431,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	
 	.btnv2gris{
 		background-color:inherit;
-		color:#333;
 		border:solid 2px #dadada;
 		}
 	
@@ -513,10 +543,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	border-top:solid 1px #dadada;
 	margin:16px 0px;
 	}
-.filtro-seccion h4{
-	border-bottom:solid 1px #dadada;
-	padding-bottom:8px;
-	}
+
 .filtro-seccion label{
 	display:block;
 	padding:8px 0px;
@@ -554,6 +581,7 @@ input[type=radio]:checked + label span {
 .catalogo{
 	padding:0px;
 	position:relative;
+	margin-top:5px;
 	}
 .cat-descuento{
 	position:absolute;
@@ -572,7 +600,7 @@ input[type=radio]:checked + label span {
 .cat-descuento label{ margin-bottom:-5px;}
 
 .cat-prod{
-	background-color:#fcfcfb;
+	background-color:#f9f9f7;
 	padding:16px 0px;
 	margin:0 8px 16px 8px;
 	border-top:solid 3px #f2bf0a;
@@ -583,10 +611,10 @@ input[type=radio]:checked + label span {
 	}
 
 
-.cat-select{ margin-bottom:16px;}
+/*.cat-select{ margin-bottom:16px;}*/
 .cat-select select{
 	height:34px;
-	background-color:#fcfcfb;
+	background-color:#f9f9f7;
 	border-radius:6px;
 	width:100%;
 	outline:none;
@@ -618,6 +646,7 @@ input[type=radio]:checked + label span {
 #forma_02,
 #forma_03{ cursor:pointer;}
 
+#form-tarjeta,
 #form-direccion,
 #mis-tarjetas,
 #mis-ordenes,
@@ -703,7 +732,7 @@ input[type=radio]:checked + label span {
 		
 	.cambio-contraseña{ border-top:solid 1px #464646;}
 	
-	.foto-perfil { width:216px; border:solid 3px #003393;}
+	.foto-perfil { max-width:216px; border:solid 3px #003393;}
 	
 	.margin8h{ margin-left:8px; margin-right:8px;}
 	
@@ -732,6 +761,23 @@ input[type=radio]:checked + label span {
 		padding:8px;
 		}
 
+.cat-name label{ text-decoration:underline;}
+.bold{ font-family:vagroundedbold;}
+.filtro-titulo{
+	font-size:16px;
+	border-bottom:solid 1px #dadada;
+	color:#464646;
+	padding:8px 0px;
+	}
+.underline{ text-decoration:underline;}
+.line-8{ line-height:8px;}
+
+.codigo4-16{ padding:4px 16px;}
+
+.tabla-confirmacion{ border:solid 1px; font-family:vagroundedbold}
+.tabla-confirmacion tr{ border-bottom:solid 1px;}
+.tabla-confirmacion td{ padding:16px;}
+.tabla-confirmacion td:Last-child{ border-left:solid 1px #898989;}
 
 @media screen and (max-width: 768px) {
     html{font-size:10px;}
@@ -744,6 +790,7 @@ input[type=radio]:checked + label span {
 	}
 	
 	.menu1_head,
+	.menu2_head_logged,
 	.menu2_head{
 	height:80px; 
 	width:60px;
@@ -760,9 +807,16 @@ input[type=radio]:checked + label span {
 	
 	.redes_sociales li{ display:list-item; margin-bottom:16px;}
 	
-	.separador{ border-left: 0px; border-top:solid 1px #dadada;}
+	.separador{
+		border-left: 0px; 
+		border-top:solid 1px #dadada;
+		  margin-top: 4px;
+		  padding-top: 4px;
+		}
 	
 	.registro-etapa figure img{ width:80px;}	
+	
+	.info-block{ text-align:center;}
 	}
 
   @media screen and (max-width: 488px) {
@@ -776,6 +830,7 @@ input[type=radio]:checked + label span {
 
 	.menu1_head,
 	.menu2_head,
+	.menu2_head_logged,
 	.menu3_head{
 	height:80px; 
 	width:60px;
@@ -783,4 +838,5 @@ input[type=radio]:checked + label span {
 	
 	.marcas li a img{ width:30%;}
 	
+	.tabla-confirmacion td{ padding:8px;}
   }

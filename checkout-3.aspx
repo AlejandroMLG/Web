@@ -10,22 +10,22 @@
   <h3 class="contenedor1140 padding16 azul">Selecciona tu forma de pago</h3>
   
   <div class="contenedor1140 caps overflow" id="formas_de_pago">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margen-bottom20">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <div class="btn-verde text-center padding16 opacidad-media" id="forma_01">
-        <img src="00_assets/formadepago_1.png">
-        <h4>Tarjeta de crédito</h4>
+        <img src="00_assets/formadepago_1.png" width="100%" style="max-width:72px;">
+        <h4 class="hidden-xs">Tarjeta de crédito</h4>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margen-bottom20">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <div class="btn-verde text-center padding16 opacidad-media" id="forma_02">
-        <img src="00_assets/formadepago_2.png">
-        <h4>Transferencia Bancaria</h4>
+        <img src="00_assets/formadepago_2.png" width="100%" style="max-width:72px;">
+        <h4 class="hidden-xs">Transferencia Bancaria</h4>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 margen-bottom20">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <div class="btn-verde text-center padding16 opacidad-media" id="forma_03">
-        <img src="00_assets/formadepago_3.png">
-        <h4>Pago en tienda</h4>
+        <img src="00_assets/formadepago_3.png" width="100%" style="max-width:72px;">
+        <h4 class="hidden-xs">Pago en tienda</h4>
       </div>
     </div>
     
@@ -64,9 +64,9 @@
       </ul>
       <div class="contenedor1140 input_resena">
         <div class="padding16">
-          <button class="caps btn btn-rosa">Agregar</button>
+          <button class="caps btn btn-rosa" id="add-tarjeta">Agregar nueva tarjeta</button>
         </div>
-        <div class="fondo2 padding16 overflow cat-select">
+        <div class="fondo2 padding16 overflow cat-select" id="form-tarjeta">
           <h4 class="azul">Nueva tarjeta</h4>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <label>Nombre del titular</label><br>
@@ -147,9 +147,8 @@
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <input type="checkbox" class="hidden" id="dir1" checked/>
-            <label for="dir1"><span></span> Tarjeta predeterminada</label><br>
-            <button class="caps btn btn-rosa">Guardar</button>
-          </div>
+            <label for="dir1"><span></span> Tarjeta predeterminada</label><br>            
+          </div>          
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding16">
             <div class="fondo1 padding8 overflow no-caps">
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -167,6 +166,10 @@
                 <div class="col-lg-9 col-md-9 col-sm-10 col-xs-9">Tus pagos se realicen de forma segura con encriptación de 256 bits.</div>
               </div>
             </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <button class="caps btn btn-rosa pull-left" id="close-tarjeta">Cancelar</button>
+            <button class="caps btn btn-rosa pull-right">Guardar</button>
           </div>
         </div>
       </div>
@@ -199,7 +202,7 @@
   <hr class="container">
   <div class="contenedor1140 padding16 overflow">
   <a href="checkout-2.aspx"><button class="caps btn btn-rosa pull-left">Regresar</button></a>
-  <button class="caps btn btn-verde pull-right">Continuar</button>
+  <a href="checkout-4.aspx"><button class="caps btn btn-verde pull-right">Continuar</button></a>
   </div>
 
 <% Response.WriteFile("footer.aspx") %>

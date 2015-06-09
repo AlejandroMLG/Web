@@ -1,7 +1,7 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 input_resena">
     <div class="padding16 overflow" style="min-height:600px;">
-      <div class="cambio-contraseña padding16 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class=" padding16 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h2 class="caps azul">Recupera tu contraseña</h2>
         <p>Ingreesa tu correo eléctronico para recuperar tu contraseña</p>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

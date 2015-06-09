@@ -132,3 +132,11 @@
 	$("#close-direccion").click(function(){
 		$("#form-direccion").slideUp();
     });
+	
+	$("#add-tarjeta").click(function(){
+		$("#form-tarjeta").slideDown();
+    });
+	
+	$("#close-tarjeta").click(function(){
+		$("#form-tarjeta").slideUp();
+    });

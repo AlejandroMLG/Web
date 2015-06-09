@@ -28,9 +28,10 @@
         </div>
       </div>
       <a href="registro-1.aspx">
-        <div class="site-wrapper menu2_head pull-right">
-          <div class="site-wrapper-inner">
-            <img src="00_assets/h_mama.png" class="center-block"/>
+        <div class="site-wrapper menu2_head_logged pull-right">
+          <div class="site-wrapper-inner text-right padding8">
+            <img src="00_assets/perfil.jpg" class="img-circle">
+            <p class="blanco hidden-xs">¡Hola <label>María Victoría</label>! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></p>
           </div>
         </div>
       </a>

@@ -15,7 +15,7 @@
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
         <a href="nueva-1.aspx">Olvide mi contraseña&nbsp;</a>
-        <button class="caps btn btn-rosa">Ingresar</button>
+        <a href="perfil.aspx"><button class="caps btn btn-rosa">Ingresar</button></a>
       </div>
     </div>
     <div class="btn-azul2 padding8">

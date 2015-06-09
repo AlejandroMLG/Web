@@ -11,7 +11,7 @@
     <ul class="contenedor1140">
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
@@ -27,7 +27,7 @@
       </li>
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
@@ -43,7 +43,7 @@
       </li>
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
@@ -62,8 +62,8 @@
   
   <div class="contenedor1140 overflow">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding16">
-      <div class="btn-rosa padding16 input_resena">
-        <p>Si tienes un código de descuento escribelo aquí:</p>
+      <div class="btn-rosa codigo4-16 input_resena">
+        <p>Si tienes un código de descuento escríbelo aquí:</p>
         <div>
           <input type="text" placeholder="Código de 10 digitos">
         </div>
@@ -90,15 +90,15 @@
     </div>
   </div>
   
-  <div class="contenedor1140 padding32">      
+  <div class="contenedor1140 padding8">      
     <div class="text-right font30">
-      <a href="checkout-2.aspx"><button class="caps btn btn-verde">Continuar con checkout</button></a>
-      <p class="font16">Compra mínima debe ser de $150.</p>
+      <a href="checkout-2.aspx"><button class="caps btn-big btn-verde">Continuar con checkout</button></a>
+      <div class="padding8 font12 caps">Compra mínima debe ser de $150.</div>
     </div>
   </div>
   
   <div class="contenedor1140 caps">
-     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16 info-block">
        <div class="btn-azul3 overflow">
          <figure class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
            <img src="00_assets/entrega_1.png" class="padding16">
@@ -110,19 +110,19 @@
          </div>
        </div>
      </div>
-     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16 info-block">
        <div class="btn-azul3 overflow">
          <figure class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
            <img src="00_assets/entrega_2.png" class="padding16">
          </figure>
          <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
-           <h3>Entrega de 3 a 5 dias</h3>
+           <h3>Entrega de 3 a 5 días</h3>
            <p>Entrega normal</p>
            <p>Entrega express</p>
          </div>
        </div>
      </div>
-     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16">
+     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding16 info-block">
        <div class="btn-azul3 overflow">
          <figure class="col-lg-4 col-md-4 col-sm-5 col-xs-12">
            <img src="00_assets/entrega_3.png" class="padding16">
