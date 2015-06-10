@@ -203,8 +203,7 @@ h5{
 }
 
 .menu2_head_logged{
-	height:110px; 
-	max-width:192px;
+	height:110px;
 	background-color:#f57e20; 
 	border-bottom:3px solid #ec4d0e;
 	cursor:pointer;
@@ -779,18 +778,20 @@ input[type=radio]:checked + label span {
 .tabla-confirmacion td{ padding:16px;}
 .tabla-confirmacion td:Last-child{ border-left:solid 1px #898989;}
 
+.todos-nombre{width:148px; display:inline-table;}
+
 @media screen and (max-width: 768px) {
     html{font-size:10px;}
 	
 	.h_logo{ width:128px;}
 	.h_logo img{ width:112px;}
 	
+	.menu2_head_logged,
 	header{
 	height:80px;
 	}
 	
 	.menu1_head,
-	.menu2_head_logged,
 	.menu2_head{
 	height:80px; 
 	width:60px;
@@ -830,7 +831,6 @@ input[type=radio]:checked + label span {
 
 	.menu1_head,
 	.menu2_head,
-	.menu2_head_logged,
 	.menu3_head{
 	height:80px; 
 	width:60px;
