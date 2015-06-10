@@ -42,8 +42,8 @@
           <a  href="#" class="rosa pull-right underline">Todos los sabores</a>
         </h4>
         <div class="padding8 overflow">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps separador"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8 todos-nombre">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center caps separador"><img src="00_assets/00_articulos/art_sm_01.png"><a href="#" class="padding8 todos-nombre">Papilla de manzana</a> <button type="button" class="btn btn-verde"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button></div>
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@
     <p><span class="azul font22">Reseña </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar reseña <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
     
     <div id="resena_form">
-	  <% Response.WriteFile("resena.aspx") %>
+	  <% Response.WriteFile("resena-logged.aspx") %>
     </div>
     
     <ul class="resena">
