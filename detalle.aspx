@@ -82,7 +82,7 @@
     <p><span class="azul font22">Reseña </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar reseña <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
     
     <div id="resena_form">
-	  <% Response.WriteFile("resena-logged.aspx") %>
+	  <% Response.WriteFile("resena.aspx") %>
     </div>
     
     <ul class="resena">
