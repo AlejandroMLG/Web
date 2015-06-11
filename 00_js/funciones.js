@@ -140,3 +140,13 @@
 	$("#close-tarjeta").click(function(){
 		$("#form-tarjeta").slideUp();
     });
+	
+
+	$("#btn-respuesta").click(function(){
+		$("#resena_form").hide();
+		$("#resena_respuesta").show();	
+    });
+	
+	$("#resena_cerrar2").click(function(){
+        $("#resena_respuesta").slideUp();
+    });

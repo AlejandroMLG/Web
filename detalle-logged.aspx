@@ -1,4 +1,4 @@
-﻿<% Response.WriteFile("header.aspx") %>
+﻿<% Response.WriteFile("header-logged.aspx") %>
   <link rel="stylesheet" href="00_video/flexslider.css" type="text/css"/>
   <script src="00_video/modernizr.js"></script>
 
@@ -82,7 +82,7 @@
     <p><span class="azul font22">Reseña </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar reseña <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
     
     <div id="resena_form">
-	  <% Response.WriteFile("resena.aspx") %>
+	  <% Response.WriteFile("resena-logged.aspx") %>
     </div>
     <div class="padding16 fondo2" id="resena_respuesta">
       <h4 class="azul overflow"><div class="pull-left">Tu reseña se ha enviado con éxito</div><a href="#null" class="pull-right" id="resena_cerrar2">Cerrar <span class="glyphicon glyphicon-remove-sign"></span></a></h4>

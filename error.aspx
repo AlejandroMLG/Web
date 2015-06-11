@@ -1,6 +1,6 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 input_resena">
-    <div class="padding16 overflow" style="min-height:600px;">
+    <div class="padding16 overflow" style="min-height:800px;">
       <div class=" padding16 col-lg-12 col-md-12 col-sm-12 col-xs-12">    
       <h2 class="azul">Lo sentimos, ha ocurrido un error</h2>
       <p> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
