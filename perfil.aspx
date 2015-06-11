@@ -29,11 +29,11 @@
         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 padding16">
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
             <label class="azul caps">Nombres</label><br>
-            <label>Maria Victoria</label>
+            <label>María Victoria</label>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
             <label class="azul caps">Apellidos</label><br>
-            <label>Pérez Hernandez</label>
+            <label>Pérez Hernández</label>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
             <a href="#" class="rosa caps"><img src="00_assets/btn-editar.png"> Editar</a>
@@ -87,7 +87,7 @@
       </li>
       <li>
         <a href="#null" id="verde-3">
-          <p>Mis ordenes</p>
+          <p>Mis órdenes</p>
         </a>
       </li>
     </ul>
@@ -180,7 +180,8 @@
         <label for="radio-dir1" class="azul"><span></span> Usar como dirección de Envío</label><br>
         <label>Sra. María Victoria Pérez</label><br>
         <label>Orizaba #143 Int.17, Delegación Cuauhtémoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label><br>
-        <button class="caps btn btn-rosa">Editar</button>        
+        <button class="caps btn btn-rosa">Editar</button>
+        <button class="caps btn btn-rosa">Eliminar</button>        
       </div>
       <div class="padding16">
         <h3 class="azul">Dirección 2</h3>
@@ -188,7 +189,8 @@
         <label for="radio-dir2" class="azul"><span></span> Usar como dirección de Envío</label><br>              
         <label>Sra. María Victoria Pérez</label><br>
         <label>Orizaba #143 Int.17, Delegación Cuauhtémoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label><br>
-        <button class="caps btn btn-rosa">Editar</button>        
+        <button class="caps btn btn-rosa">Editar</button>  
+        <button class="caps btn btn-rosa">Eliminar</button>      
       </div>
     </div>
     
@@ -308,6 +310,7 @@
           <label>Tarjeta de crédito Mastercard</label><br>
           <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
           <button class="caps btn btn-rosa">Editar</button>
+          <button class="caps btn btn-rosa">Eliminar</button>
         </div>
       </li>
       <li>
@@ -316,8 +319,9 @@
           <input type="radio" class="hidden" name="radio2" id="r2"/>
           <label for="r2" class="azul"><span></span> Usar como predeterminada</label><br>
           <label>Tarjeta de crédito Mastercard</label><br>
-          <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
-          <button class="caps btn btn-rosa">Editar</button>          
+          <label>************2383 I Expira 07/16 I Sra. María Victoria Pérez</label><br>
+          <button class="caps btn btn-rosa">Editar</button>
+          <button class="caps btn btn-rosa">Eliminar</button>      
         </div>
       </li>
       <li>
@@ -326,8 +330,9 @@
           <input type="radio" class="hidden" name="radio2" id="r3"/>
           <label for="r3" class="azul"><span></span> Usar como predeterminada</label><br>
           <label>Tarjeta de crédito Mastercard</label><br>
-          <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
-          <button class="caps btn btn-rosa">Editar</button>        
+          <label>************2383 I Expira 07/16 I Sra. María Victoria Pérez</label><br>
+          <button class="caps btn btn-rosa">Editar</button>
+          <button class="caps btn btn-rosa">Eliminar</button>    
         </div>
       </li>
     </ul>

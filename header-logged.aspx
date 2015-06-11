@@ -31,7 +31,7 @@
         <div class="menu2_head_logged pull-right">
           <div class="text-right padding16v padding8">
             <img src="00_assets/perfil.jpg" class="img-circle">
-            <p class="blanco hidden-xs">¡Hola <label>María Victoría</label>! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></p>
+            <p class="blanco hidden-xs">¡Hola <label>María Victoria</label>! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></p>
           </div>
         </div>
       </a>
@@ -111,19 +111,25 @@
   
   <div class="hidden-xs ayuda-lateral">
     <div class="site-wrapper-inner">
-      <div style="background-color:#a2dae8;">Ayuda</div>
+      <a href="f_contacto.aspx">
+      <div style="background-color:#a2dae8;">Contacto</div>
       <div style="background-color:#55c4e9;"><img src="00_assets/icon_ayuda.png"></div>
       <div class="btn-azul"><img src="00_assets/icon_contacto.png"></div>
+      </a>
     </div>
   </div>
   
-  <div class="contenedor1140 hidden-xs">
-    <ol class="breadcrumb text-right">
+  <div class="contenedor1140 overflow">
+    <ol class="breadcrumb hidden-xs pull-left">
       <li><a href="#">Home</a></li>
       <li><a href="#">Papillas</a></li>
       <li class="active">Gerber</li>
     </ol>
+    <div class="pull-right padding16 underline">
+      <a href="index.aspx">Cerrar Sesión</a>
+    </div>
   </div>
+  
 
   <div class="contenedor1140">
   <!--TABS-->

@@ -70,7 +70,7 @@
     </select><br>
     </div>
     <div class="padding16v">
-      <button class="caps btn btn-rosa" id="add-direccion">Agregar nueva dirección</button>
+      <button class="caps btn btn-rosa" id="add-direccion">Ingresar datos de facturación</button>
     </div>
     <div class="fondo2 padding16 overflow cat-select" id="form-direccion">
       <h4 class="azul">Tus datos</h4>
@@ -144,7 +144,9 @@
       <h4 class="azul">Facturación</h4>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>RFC</label><br>
-          <input type="text" placeholder="CCFJ860626LI7">
+          <input type="text" placeholder="CCFJ860626LI7"><br>
+          <input type="checkbox" class="hidden" id="factura2"/>
+		  <label for="factura2"><span></span> Guardar en mis direcciones</label><br>
         </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <button class="caps btn btn-rosa pull-left" id="close-direccion">Cancelar</button>

@@ -3,7 +3,7 @@
   <div class="overflow input_resena">    
     <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
       <label>Comentarios: </label>
-      <textarea required></textarea>
+      <textarea></textarea>
     </div>
     <div class="col-lg-6 col-md-6 col-lg-6 col-lg-12">
       <label>Tu calificación: </label>
@@ -18,6 +18,6 @@
   </div>
   <div class="overflow padding16">
     <p class="pull-left"><input type="checkbox"> Acepto los <a href="#null">Términos y condiciones</a> del sitio y <a href="#null">políticas de privacidad</a></p>
-    <button type="send" class="btn btn-rosa caps pull-right">Enviar</button>
+    <button class="btn btn-rosa caps pull-right" id="btn-respuesta">Enviar</button>
   </div>
 </form>

@@ -35,7 +35,7 @@
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir1" checked/>
-            <label for="radio-dir1" class="azul"><span></span> Usar como dirección de Envío</label><br>
+            <label for="radio-dir1" class="azul"><span></span> Usar como predeterminada</label><br>
             <label>Tarjeta de crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
             <button class="caps btn btn-rosa">Editar</button>
@@ -45,7 +45,7 @@
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir2"/>
-            <label for="radio-dir2" class="azul"><span></span> Usar como dirección de Envío</label><br>
+            <label for="radio-dir2" class="azul"><span></span> Usar como predeterminada</label><br>
             <label>Tarjeta de crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
             <button class="caps btn btn-rosa">Editar</button>          
@@ -55,7 +55,7 @@
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir3"/>
-            <label for="radio-dir3" class="azul"><span></span> Usar como dirección de Envío</label><br>
+            <label for="radio-dir3" class="azul"><span></span> Usar como predeterminada</label><br>
             <label>Tarjeta de crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br> 
             <button class="caps btn btn-rosa">Editar</button>           
@@ -176,9 +176,39 @@
     </div>
     
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_02_body">
-      <div class="btn-verde padding16 overflow">
+      <div class="btn-verde padding16 overflow img-espacio">
         <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-        <figure><img src="00_assets/bancos.png" width="100%"></figure>
+        <img src="00_assets/00_bancos/001.png">
+        <img src="00_assets/00_bancos/002.png">
+        <img src="00_assets/00_bancos/003.png">
+        <img src="00_assets/00_bancos/004.png">
+        <img src="00_assets/00_bancos/005.png">
+        <img src="00_assets/00_bancos/006.png">
+        <img src="00_assets/00_bancos/007.png">
+        <img src="00_assets/00_bancos/008.png">
+        <img src="00_assets/00_bancos/009.png">
+        <img src="00_assets/00_bancos/010.png">
+        <img src="00_assets/00_bancos/011.png">
+        <img src="00_assets/00_bancos/012.png">
+        <img src="00_assets/00_bancos/013.png">
+        <img src="00_assets/00_bancos/014.png">
+        <img src="00_assets/00_bancos/015.png">
+        <img src="00_assets/00_bancos/016.png">
+        <img src="00_assets/00_bancos/017.png">
+        <img src="00_assets/00_bancos/018.png">
+        <img src="00_assets/00_bancos/019.png">
+        <img src="00_assets/00_bancos/020.png">
+        <img src="00_assets/00_bancos/021.png">
+        <img src="00_assets/00_bancos/022.png">
+        <img src="00_assets/00_bancos/023.png">
+        <img src="00_assets/00_bancos/024.png">
+        <img src="00_assets/00_bancos/025.png">
+        <img src="00_assets/00_bancos/026.png">
+        <img src="00_assets/00_bancos/027.png">
+        <img src="00_assets/00_bancos/028.png">
+        <img src="00_assets/00_bancos/029.png">
+        <img src="00_assets/00_bancos/030.png">
+        <img src="00_assets/00_bancos/031.png">        
       </div>
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_03_body">

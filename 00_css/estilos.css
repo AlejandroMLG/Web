@@ -529,6 +529,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 
 .separador{ border-left:solid 1px #dadada}
 
+#resena_respuesta,
 #resena_form{ display:none;}
 
 .input_resena div textarea{ min-height:80px; resize:none;}
@@ -779,6 +780,10 @@ input[type=radio]:checked + label span {
 .tabla-confirmacion td:Last-child{ border-left:solid 1px #898989;}
 
 .todos-nombre{width:148px; display:inline-table;}
+.img-espacio img{ vertical-align:inherit;}
+
+.radius-top{ border-top-left-radius:22px; border-top-right-radius:22px;}
+.radius-bottom{ border-bottom-left-radius:22px; border-bottom-right-radius:22px;}
 
 @media screen and (max-width: 768px) {
     html{font-size:10px;}
