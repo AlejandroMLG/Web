@@ -56,6 +56,7 @@ footer{
 .rosa{ color:#fbb567}
 .rojo{ color:#ff2e00;}
 .rojo2{ color:#9e0b0f;}
+.gris{ color:#898989;}
 .font12{ font-size:1.0rem;}
 .font16{ font-size:1.3rem;}
 .font22{ font-size:1.8rem;}
@@ -176,7 +177,7 @@ h5{
 
 .b_carrito ul li{
 	padding:16px; 
-	height:100px; 
+	min-height:100px; 
 	overflow:hidden;
 	border-bottom:solid 1px #464646;
 	}
@@ -296,7 +297,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		text-align:center;
 		padding:16px 0px 8px 0px;
 		color:#cccccc;
-		background-color:#fcfcfb;
+		background-color:#f9f9f7;
 		margin:0px 8px;
 		border-radius: 15px 15px 0px 0px;
 		border-right:solid 3px #e1e1e0;
@@ -357,12 +358,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		}
 
 	.btn-big{
+	  font-family:vagroundedbold;
 	  padding:8px 16px;
-	  font-size: 17px;
+	  font-size: 20px;
 	  line-height: 1.3333333;
 	  border-radius: 6px;
 	  outline:none;
 	  border: inherit;
+	}
+	
+    .btn-gris {
+	  color: #898989;
+	  background-color: #f3f1ea;
+	  border-bottom:solid 3px #cdcbc4;
 	}
 
 	.btn-azul {
@@ -370,13 +378,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	  background-color: #08a0f8;
 	  border-bottom:solid 3px #007ad2;
 	}
-	
+
 	.btn-azul2 {
 	  color: #fff;
 	  background-color: #0055a5;
 	  border-bottom:solid 3px #002f7f;
 	}
-	
+
 	.btn-azul3{
 	background-color:#508dc7; 
 	color:#fff; 
@@ -401,8 +409,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 	  border-bottom:solid 3px #00792e;
 	}
 	
+	.btn-verde-3{
+	  color: #fff;
+	  background-color: #9ad86e;
+	  border-bottom:solid 3px #74b248;
+	}
+	
+
+	
 	.btn:focus,
-	.btn:hover{ color:#fff;}
+	.btn:hover{ color:#FFFFFF;}
+	.btn:hover.btn-gris{ color:#898989;}
 	
 	.btnv2{
 		border-radius:25px;
@@ -421,6 +438,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 		border:solid 2px #fbb567;
 		}
 		
+	.btnv2rosa:focus,
 	.btnv2rosa:active,
 	.btnv2rosa:hover{
 		background-color:#fbb567;
@@ -623,8 +641,8 @@ input[type=radio]:checked + label span {
 	}
 	
 .precio-descuento{color:#9e0b0f; text-decoration:line-through; height:20px;}
-.cat-name{ color:inherit;}
-.cat-name label{ height:40px; cursor:pointer;}
+.cat-name{ color:#898989;}
+.cat-name label{ color:#898989; height:40px; cursor:pointer;}
 
 .paso_circulo{
 	color:#fff;
@@ -782,8 +800,10 @@ input[type=radio]:checked + label span {
 .todos-nombre{width:148px; display:inline-table;}
 .img-espacio img{ vertical-align:inherit;}
 
-.radius-top{ border-top-left-radius:22px; border-top-right-radius:22px;}
-.radius-bottom{ border-bottom-left-radius:22px; border-bottom-right-radius:22px;}
+.radius-top{ border-top-left-radius:16px; border-top-right-radius:16px;}
+.radius-bottom{ border-bottom-left-radius:16px; border-bottom-right-radius:16px;}
+
+.info-block div{min-height:168px;}
 
 @media screen and (max-width: 768px) {
     html{font-size:10px;}

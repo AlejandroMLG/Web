@@ -8,7 +8,10 @@
 <link href="00_css/estilos.css" rel="stylesheet" type="text/css">
 <link href="00_swiper/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="00_productos/mas_productos.css" rel="stylesheet" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="00_bootstrap/js/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
@@ -108,7 +111,7 @@
     </div>
   </div>
   
-  <div class="hidden-xs ayuda-lateral">
+  <div class="hidden-xs hidden-sm ayuda-lateral">
     <div class="site-wrapper-inner">
       <a href="f_contacto.aspx">
       <div style="background-color:#a2dae8;">Contacto</div>

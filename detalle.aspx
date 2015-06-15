@@ -30,7 +30,7 @@
           <li class="star_in"></li>
           <li class="star_out"></li>
         </ul>
-        <div class="rosa font22 line-8">&nbsp;<label>115</label> <span class="underline">reseñas</span></div>
+        <div class="rosa font22 line-8">&nbsp;<label>115</label> <span class="underline"><a href="#null" style="color:inherit;" onclick="jQuery('html, body').animate( { scrollTop: 900 }, 'slow' );">reseñas</a></span></div>
       </div>
       <p>Compartir: <label class="share facebook">1k</label><label class="share twitter">200</label><label class="share pinterest">456</label></p>
     </div>

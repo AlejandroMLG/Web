@@ -54,8 +54,10 @@
         </div>
       </div>
       <div class="cambio-contraseña padding16 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <h5 class="caps azul">Cambiar contraseña</h5>
-        <p>Ingresa tu contraseña en caso de que quieras cambiarla</p>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h5 class="caps azul">Cambiar contraseña</h5>
+          <p>Ingresa tu contraseña en caso de que quieras cambiarla</p>
+        </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label class="caps azul">Contraseña</label><br>
           <input type="password" placeholder="6-12 CARACTERES">
@@ -93,7 +95,7 @@
     </ul>
   <!--TABS-->
     <div class="fondo2 padding16 overflow margin8h margen-bottom20" id="mis-direcciones">
-      <button class="caps btn btn-rosa" id="add-direccion">Agregar nueva dirección</button>
+      <div class="padding16h"><button class="caps btn btn-rosa" id="add-direccion">&nbsp;&nbsp;&nbsp;Agregar nueva dirección&nbsp;&nbsp;&nbsp;</button></div>
       <div class="fondo2 padding16 overflow cat-select input_resena" id="form-direccion">
         <h4 class="azul">Tus datos</h4>
           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
@@ -195,7 +197,7 @@
     </div>
     
     <ul class="fondo2 padding16 overflow margin8h margen-bottom20" id="mis-tarjetas">
-      <button class="caps btn btn-rosa" id="add-tarjeta">Agregar nueva tarjeta</button>
+      <div class="padding16h"><button class="caps btn btn-rosa" id="add-tarjeta">&nbsp;&nbsp;&nbsp;&nbsp;Agregar nueva tarjeta&nbsp;&nbsp;&nbsp;&nbsp;</button></div>
       <div class="fondo2 padding16 overflow cat-select input-resena" id="form-tarjeta">
         <h4 class="azul">Nueva tarjeta</h4>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -340,47 +342,47 @@
     <div class="fondo2 padding16 overflow margin8h margen-bottom20 text-center" id="mis-ordenes">
       <table width="100%" border="1" cellspacing="0" cellpadding="0" class="tabla-ordenes font16">
         <thead>
-          <tr>
-            <td>Fecha <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></td>
-            <td>No. orden <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></td>
-            <td>Total <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></td>
-            <td>Estatus <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></td>
+          <tr class="caps bold">
+            <td>Fecha <span class="glyphicon glyphicon-menu-down verde" aria-hidden="true"></span></td>
+            <td>No. orden <span class="glyphicon glyphicon-menu-down verde" aria-hidden="true"></span></td>
+            <td>Total <span class="glyphicon glyphicon-menu-down verde" aria-hidden="true"></span></td>
+            <td>Estatus <span class="glyphicon glyphicon-menu-down verde" aria-hidden="true"></span></td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="verde">12/03/15</td>
-            <td>9393893874</td>
+            <td class="">12/03/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">93893874</a></td>
             <td>$1,800.00</td>
             <td class="verde">Entregado</td>
           </tr>
           <tr>
-            <td class="verde">12/05/15</td>
-            <td>65437896</td>
+            <td class="">12/05/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">65437896</a></td>
             <td>$1,250.00</td>
             <td class="rojo">Pendiente</td>
           </tr>
           <tr>
-            <td class="verde">03/06/15</td>
-            <td>67541243</td>
+            <td class="">03/06/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">67541243</a></td>
             <td>$500.00</td>
             <td class="verde">Entregado</td>
           </tr>
           <tr>
-            <td class="verde">22/07/15</td>
-            <td>98767896</td>
+            <td class="">22/07/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">98767896</a></td>
             <td>$860.00</td>
             <td class="verde">Entregado</td>
           </tr>
           <tr>
-            <td class="verde">27/11/15</td>
-            <td>87966978</td>
+            <td class="">27/11/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">87966978</a></td>
             <td>$450.00</td>
             <td class="rojo">Pendiente</td>
           </tr>
           <tr>
-            <td class="verde">06/12/15</td>
-            <td>34569867</td>
+            <td class="">06/12/15</td>
+            <td><a href="#" data-toggle="modal" data-target="#myModal2">34569867</a></td>
             <td>$2,000.00</td>
             <td class="verde">Entregado</td>
           </tr>

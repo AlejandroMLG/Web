@@ -8,36 +8,36 @@
       <h4 class="azul">Teléfono</h4>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
           <label>Lada</label><br>
-          <input type="number">
+          <input type="number" placeholder="+52">
         </div>
         <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
           <label>Número</label><br>
-          <input type="number">
+          <input type="number" placeholder="5512345678">
         </div>
       <h4 class="azul">Dirección</h4>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <label>Calle</label><br>
-          <input type="text">
+          <input type="text" placeholder="nombre de la calle">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
           <label>Número Exterior</label><br>
-          <input type="number">
+          <input type="number" placeholder="143">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
           <label>Número Interior</label><br>
-          <input type="number">
+          <input type="number" placeholder="17">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Colonia</label><br>
-          <input type="text">
+          <input type="text" placeholder="Nombre de la colonia">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Delegación</label><br>
-          <input type="text">
+          <input type="text" placeholder="Nombre de la delegación">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Código Postal</label><br>
-          <input type="number">
+          <input type="number" placeholder="06700">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margen-bottom20">
           <label>País</label><br>
@@ -55,12 +55,12 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <label>Referencias</label><br>
-          <input type="text">
+          <input type="text" placeholder="Entre Jalapa y Tonalá">
         </div>
       <h4 class="azul">Facturación</h4>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>RFC</label><br>
-          <input type="text">
+          <input type="text" placeholder="CCFJ860626LI7">
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <input type="checkbox" class="hidden" id="acept1" checked/>

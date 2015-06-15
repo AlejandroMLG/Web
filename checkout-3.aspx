@@ -9,34 +9,34 @@
   <h1 class="contenedor1140 padding16 azul">Pago</h1>
   <h3 class="contenedor1140 padding16 azul">Selecciona tu forma de pago</h3>
   
-  <div class="contenedor1140 caps overflow" id="formas_de_pago">
+  <div class="contenedor1140 overflow" id="formas_de_pago">
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-      <div class="btn-verde text-center padding16 opacidad-media" id="forma_01">
+      <div class="btn-verde-3 text-center padding16 opacidad-media" id="forma_01">
         <img src="00_assets/formadepago_1.png" width="100%" style="max-width:72px;">
-        <h4 class="hidden-xs">Tarjeta de crédito</h4>
+        <h4 class="hidden-xs caps">Tarjeta de crédito</h4>
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-      <div class="btn-verde text-center padding16 opacidad-media" id="forma_02">
+      <div class="btn-verde-3 text-center padding16 opacidad-media" id="forma_02">
         <img src="00_assets/formadepago_2.png" width="100%" style="max-width:72px;">
-        <h4 class="hidden-xs">Transferencia Bancaria</h4>
+        <h4 class="hidden-xs caps">Transferencia Bancaria</h4>
       </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-      <div class="btn-verde text-center padding16 opacidad-media" id="forma_03">
+      <div class="btn-verde-3 text-center padding16 opacidad-media" id="forma_03">
         <img src="00_assets/formadepago_3.png" width="100%" style="max-width:72px;">
-        <h4 class="hidden-xs">Pago en tienda</h4>
+        <h4 class="hidden-xs caps">Pago en tienda</h4>
       </div>
     </div>
     
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_01_body">
-      <ul class="btn-verde padding16 overflow" id="tarjetas">
+      <ul class="btn-verde-3 padding16 solid-font18 overflow" id="tarjetas">
         <li>          
           <figure class="padding16 pull-left"><img src="00_assets/mastercard.png"></figure>          
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir1" checked/>
             <label for="radio-dir1" class="azul"><span></span> Usar como predeterminada</label><br>
-            <label>Tarjeta de crédito Mastercard</label><br>
+            <label>Tarjeta de Crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
             <button class="caps btn btn-rosa">Editar</button>
           </div>
@@ -46,7 +46,7 @@
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir2"/>
             <label for="radio-dir2" class="azul"><span></span> Usar como predeterminada</label><br>
-            <label>Tarjeta de crédito Mastercard</label><br>
+            <label>Tarjeta de Crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br>
             <button class="caps btn btn-rosa">Editar</button>          
           </div>
@@ -56,13 +56,12 @@
           <div class="pull-left">
             <input type="radio" class="hidden" name="radio-dir" id="radio-dir3"/>
             <label for="radio-dir3" class="azul"><span></span> Usar como predeterminada</label><br>
-            <label>Tarjeta de crédito Mastercard</label><br>
+            <label>Tarjeta de Crédito Mastercard</label><br>
             <label>************2383 I Expira 07/16 I Sra. Maria Victoria Pérez</label><br> 
             <button class="caps btn btn-rosa">Editar</button>           
           </div>
         </li>
-      </ul>
-      <div class="contenedor1140 input_resena">
+        <div class=" input_resena gris">
         <div class="padding16">
           <button class="caps btn btn-rosa" id="add-tarjeta">Agregar nueva tarjeta</button>
         </div>
@@ -70,11 +69,11 @@
           <h4 class="azul">Nueva tarjeta</h4>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <label>Nombre del titular</label><br>
-            <input type="text">
+            <input type="text" placeholder="María Victoria Pérez">
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <label>Número de la tarjeta</label><br>
-            <input type="text">
+            <input type="text" placeholder="16 Dígitos">
           </div>
           <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
             <label>Tipo de tarjeta</label><br>
@@ -84,7 +83,7 @@
               <option>VISA</option>
             </select>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 margen-bottom20">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 margen-bottom20">
             <label>Fecha de expiración</label><br>
             <select name="month" id="month">
                 <option value="01">Enero</option>
@@ -138,19 +137,16 @@
                 <option value="31">31</option>
             </select>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-10">
-            <label>Código de seguridad</label><br>
+          <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+            <label>Código de seguridad</label><span class="padding8"><img src="00_assets/codigo_info.png" width="16" height="16"></span><br>
             <input type="text" placeholder="4 dígitos" maxlength="4">
-          </div>
-          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
-            <img src="00_assets/codigo_info.png">
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <input type="checkbox" class="hidden" id="dir1" checked/>
             <label for="dir1"><span></span> Tarjeta predeterminada</label><br>            
           </div>          
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding16">
-            <div class="fondo1 padding8 overflow no-caps">
+            <div class="fondo1 padding8 overflow no-caps font16">
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <p>Tus pagos se realizan de forma segura</p>
                 <img src="00_assets/p_VISA.png">
@@ -173,10 +169,12 @@
           </div>
         </div>
       </div>
+      </ul>
+      
     </div>
     
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_02_body">
-      <div class="btn-verde padding16 overflow img-espacio">
+      <div class="btn-verde-3 padding16 overflow img-espacio">
         <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
         <img src="00_assets/00_bancos/001.png">
         <img src="00_assets/00_bancos/002.png">
@@ -212,7 +210,7 @@
       </div>
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_03_body">
-      <div class="btn-verde padding16 overflow">
+      <div class="btn-verde-3 padding16 overflow">
         <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
         <figure><img src="00_assets/tiendas.png" width="100%"></figure>
       </div>
@@ -222,7 +220,7 @@
 
   <hr class="container">
   <h3 class="contenedor1140 padding16 azul">Dirección de envío</h3>
-  <div class="contenedor1140 padding16 input_resena">
+  <div class="contenedor1140 padding16 input_resena solid-font18">
     <div class="margen-bottom20">
       <label>Sra. María Victoria Pérez</label><br>
       <label>Orizaba #143 Int.17, Delegación Cuauhtémoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label>
@@ -232,7 +230,7 @@
   <hr class="container">
   <div class="contenedor1140 padding16 overflow">
   <a href="checkout-2.aspx"><button class="caps btn btn-rosa pull-left">Regresar</button></a>
-  <a href="checkout-4.aspx"><button class="caps btn btn-verde pull-right">Continuar</button></a>
+  <a href="checkout-4.aspx"><button class="caps btn-big btn-verde pull-right">Continuar</button></a>
   </div>
 
 <% Response.WriteFile("footer.aspx") %>

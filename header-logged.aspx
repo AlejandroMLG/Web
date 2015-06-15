@@ -8,10 +8,128 @@
 <link href="00_css/estilos.css" rel="stylesheet" type="text/css">
 <link href="00_swiper/swiper.min.css" rel="stylesheet" type="text/css">
 <link href="00_productos/mas_productos.css" rel="stylesheet" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="00_bootstrap/js/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="btn-azul2 modal-header">
+          <div class="pull-right" data-dismiss="modal"><label class="underline">Cerrar</label> <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></div>
+          <h4 class="modal-title" id="myModalLabel">Cerrar Sesión</h4>
+        </div>
+          <div class="modal-body azul">¿Estás seguro que deseas cerrar tu sesión?</div>
+        <div class="modal-footer">
+          <a href="#null" class="btn btn-gris" data-dismiss="modal">Cancelar</a>
+          <a href="index.aspx" class="btn btn-verde">Aceptar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  
+  <!-- Modal 2-->
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content btn-verde radius-bottom radius-top">
+        <div class="modal-header">
+          <div class="pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></div>
+          <h4 class="modal-title" id="myModalLabel">Orden #12345678</h4>
+        </div>
+          <div class="modal-body">
+            <p class="caps">Fecha: <label>12/05/15</label></p>
+            <p class="caps">Estatus: <label>Entregado</label></p>
+            <p class="caps">Método de pago: <label>Tarjeta de crédito</label></p>
+<div class=" fondo1 radius-bottom radius-top">
+  <div class="b_carrito">
+    <ul>
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+          <label>Papilla de manzana</label><br>
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1" disabled>
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
+        </div>
+      </li>
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+          <label>Papilla de manzana</label><br>
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1" disabled>
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
+        </div>
+      </li>
+      <li>
+        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+          <label>Papilla de manzana</label><br>
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+          <input type="number" class="input-cantidad" value="1" disabled>
+        </div>
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <label class="azul">$11.00</label>
+        </div>
+        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
+          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
+        </div>
+      </li>
+    </ul>    
+  </div>
+  
+  <div class="contenedor1140 overflow">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">      
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 caps padding16">
+      <table width="100%" border="1" cellspacing="0" cellpadding="0" class="tabla-checkout azul">
+        <tbody>
+          <tr>
+            <td>Subtotal</td>
+            <td>$<label>166.00</label></td>
+          </tr>
+          <tr>
+            <td>Descuento</td>
+            <td class="verde2">-$<label>60.00</label></td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$<label>106.00</label></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+
 
   <header>
     <div class="contenedor1140">
@@ -126,7 +244,7 @@
       <li class="active">Gerber</li>
     </ol>
     <div class="pull-right padding16 underline">
-      <a href="index.aspx">Cerrar Sesión</a>
+      <a href="#" data-toggle="modal" data-target="#myModal">Cerrar Sesión</a>
     </div>
   </div>
   

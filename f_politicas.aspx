@@ -1,7 +1,7 @@
 ﻿<% Response.WriteFile("header.aspx") %>
 
 <div class="contenedor1140 padding16">
-  <h2 class="azul">Políticas de privacidad</h2>
+  <h1 class="azul">Políticas de privacidad</h1>
   <div>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at cursus mauris. Nulla et turpis enim. Integer consectetur diam sit amet nulla feugiat, eu tincidunt mauris pulvinar. Nullam pulvinar mauris neque, vitae lacinia diam dignissim non. Nunc facilisis mauris risus, blandit laoreet nulla scelerisque ac. Nunc felis quam, aliquet a aliquet vestibulum, facilisis et lorem. Donec facilisis dictum elit. In sed dui sem. Morbi nulla risus, varius ut felis sit amet, elementum feugiat augue.<br>
   <br>

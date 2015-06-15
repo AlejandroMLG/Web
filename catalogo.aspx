@@ -61,7 +61,7 @@
     </nav>
     
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-      <h2 class="azul">Papillas</h2>
+      <h1 class="azul">Papillas</h1>
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" data-hash="slide1">
@@ -100,7 +100,7 @@
     
     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
       
-      <section class="caps overflow">
+      <section class="caps overflow padding8">
         <div class="pull-left cat-select col-lg-4 col-md-4 col-sm-6 col-xs-6">
           <label>Ordenar por:</label><br>
           <select>
@@ -142,9 +142,12 @@
           <label>descuento</label>
         </div>
         <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_07.png" class="center-block" />
+          
           <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>PAPILLA PLATANO</label></a><br>
+            <a href="detalle.aspx">
+              <img src="00_assets/00_articulos/art_md_07.png" class="center-block" />
+              <span class="cat-name"><label>PAPILLA PLATANO</label></span><br>
+            </a>
             <label class="precio-descuento">$18.00</label><br>
             <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
@@ -160,9 +163,31 @@
       </div>
       <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_02.png" class="center-block" />
           <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>BARRA DE CEREAL</label></a><br>
+            <a href="detalle.aspx">
+              <img src="00_assets/00_articulos/art_md_02.png" class="center-block" />
+              <span class="cat-name"><label>BARRA DE CEREAL</label></span><br>
+            </a>
+            <label class="precio-descuento"></label><br>
+            <label class="verde2 font30 bold">$11.00</label>
+            <ul class="estrellas">
+              <li class="star_in"></li>
+              <li class="star_in"></li>
+              <li class="star_in"></li>
+              <li class="star_in"></li>
+              <li class="star_out"></li>
+            </ul>
+            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="cat-prod">          
+          <div class="cat-text">
+            <a href="detalle.aspx">
+            <img src="00_assets/00_articulos/art_md_03.png" class="center-block" />
+            <span class="cat-name"><label>PAPILLA ZANAHORIA</label></span><br>
+            </a>
             <label class="precio-descuento"></label><br>
             <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
@@ -178,27 +203,11 @@
       </div>
       <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_03.png" class="center-block" />
           <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>PAPILLA ZANAHORIA</label></a><br>
-            <label class="precio-descuento"></label><br>
-            <label class="verde2 font30 bold">$11.00</label>
-            <ul class="estrellas">
-              <li class="star_in"></li>
-              <li class="star_in"></li>
-              <li class="star_in"></li>
-              <li class="star_in"></li>
-              <li class="star_out"></li>
-            </ul>
-            <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
-          </div>
-        </div>
-      </div>
-      <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
-        <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_04.png" class="center-block" />
-          <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></a><br>
+            <a href="detalle.aspx">
+            <img src="00_assets/00_articulos/art_md_04.png" class="center-block" />
+            <span class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></span><br>
+            </a>
             <label class="precio-descuento"></label><br>
             <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
@@ -218,9 +227,11 @@
           <label>descuento</label>
         </div>
         <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_05.png" class="center-block" />
           <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>PAPILLA PERA</label></a><br>
+            <a href="detalle.aspx">
+              <img src="00_assets/00_articulos/art_md_05.png" class="center-block" />
+              <span class="cat-name"><label>PAPILLA PERA</label></span><br>
+            </a>
             <label class="precio-descuento">$16.00</label><br>
             <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">
@@ -236,9 +247,11 @@
       </div>
       <div class="catalogo col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="cat-prod">
-          <img src="00_assets/00_articulos/art_md_06.png" class="center-block" />
           <div class="cat-text">
-            <a href="detalle.aspx" class="cat-name"><label>PAPILLA MANGO</label></a><br>
+            <a href="detalle.aspx">
+              <img src="00_assets/00_articulos/art_md_06.png" class="center-block" />
+              <span class="cat-name"><label>PAPILLA MANGO</label></span><br>
+            </a>
             <label class="precio-descuento"></label><br>
             <label class="verde2 font30 bold">$11.00</label>
             <ul class="estrellas">

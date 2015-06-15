@@ -4,54 +4,67 @@
   <ul id="flexiselDemo3">
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_07.png" />
-          <a href="detalle.aspx" class="cat-name"><label>PAPILLA PLATANO</label></a><br>
+          <span class="cat-name"><label>PAPILLA PLATANO</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_02.png" />
-          <a href="detalle.aspx" class="cat-name"><label>BARRA DE CEREAL</label></a><br>
+          <span class="cat-name"><label>BARRA DE CEREAL</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_03.png" />
-          <a href="detalle.aspx" class="cat-name"><label>PAPILLA ZANAHORIA</label></a><br>
+          <span class="cat-name"><label>PAPILLA ZANAHORIA</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_04.png" />
-          <a href="detalle.aspx" class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></a><br>
+          <span class="cat-name"><label>YOUGURT DE MANZANA CON FRESA</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_05.png" />
-          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE PERA</label></a><br>
+          <span class="cat-name"><label>PAPILLA DE PERA</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
       <li>
         <div>
+          <a href="detalle.aspx">
           <img src="00_assets/00_articulos/art_md_06.png" />
-          <a href="detalle.aspx" class="cat-name"><label>PAPILLA DE MANGO</label></a><br>
+          <span class="cat-name"><label>PAPILLA DE MANGO</label></span><br>
+          </a>
           <label class="verde2 font30">$11.00</label>
           <button type="button" class="btn btn-verde caps center-block">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
         </div>
       </li>
   </ul>    
 </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="00_productos/jquery.flexisel.js"></script>
 <script type="text/javascript">
 

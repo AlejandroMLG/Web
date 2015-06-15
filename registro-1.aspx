@@ -1,7 +1,7 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 input_resena margen-bottom20">
-    <div class="btn-azul2 padding8">
-      <h2>Ya tengo una cuenta</h2>
+    <div class="btn-azul2 solid-font18 bold padding16">
+      <div>Ya tengo una cuenta</div>
     </div>
     <div class="fondo2 padding16 overflow">
       <p>Ingresa tu nombre de usuario y contraseña</p>
@@ -14,22 +14,22 @@
         <input type="password" maxlength="12" placeholder="Ingresa tu contraseña">
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
-        <a href="nueva-1.aspx">Olvide mi contraseña&nbsp;</a>
+        <a href="nueva-1.aspx" class="underline padding8">Olvide mi contraseña</a>
         <a href="perfil.aspx"><button class="caps btn btn-rosa">Ingresar</button></a>
       </div>
     </div>
-    <div class="btn-azul2 padding8">
-      <h2>Registrarme</h2>
+    <div class="btn-azul2 padding16 solid-font18 bold">
+      <div>Registrarme</div>
     </div>
     <div class="fondo2 padding16 cat-select overflow">
       <p>Registrate en Comienzo Sano, Vida Sana y recibe información especializada en nutrición.</p>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <label>*Nombre(s):</label>
-        <input type="text" required>
+        <input type="text" placeholder="Ingresa tu nombre" required>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <label>*Apellidos:</label>
-        <input type="text" required>
+        <input type="text" placeholder="Ingresa tus apellidos" required>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         <label>*Fecha de nacimiento</label>
@@ -37,19 +37,19 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <label>*Correo</label>
-        <input type="email" required>
+        <input type="email" placeholder="ejemplo@correo.com" required>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <label>*Confirmar correo</label>
-        <input type="email" required>
+        <input type="email" placeholder="ejemplo@correo.com" required>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <label>*Contraseña</label>
-        <input type="password" maxlength="12" required>
+        <input type="password" placeholder="************" maxlength="12" required>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <label>*Confirmar contraseña</label>
-        <input type="password" maxlength="12" required>
+        <input type="password" placeholder="************" maxlength="12" required>
       </div>
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <p>Para crear tu contraseña, es necesario que tenga lo siguiente:</p>
@@ -101,11 +101,11 @@
         </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Nombre(s):</label>
-          <input type="text">
+          <input type="text" placeholder="Ingresa su nombre">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Apellidos:</label>
-          <input type="text">
+          <input type="text" placeholder="Ingresa sus apellidos">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Fecha de nacimiento</label>

@@ -142,7 +142,7 @@
   <hr class="container">
   <div class="contenedor1140 padding16 overflow">
   <a href="checkout-1.aspx"><button class="caps btn btn-rosa pull-left">Regresar</button></a>
-  <a href="checkout-3.aspx"><button class="caps btn btn-verde pull-right">Continuar</button></a>
+  <a href="checkout-3.aspx"><button class="caps btn-big btn-verde pull-right">Continuar</button></a>
   </div>
 
 <% Response.WriteFile("footer.aspx") %>

@@ -118,7 +118,6 @@
          <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12">
            <h3>Entrega de 3 a 5 días</h3>
            <p>Entrega normal</p>
-           <p>Entrega express</p>
          </div>
        </div>
      </div>
