@@ -69,9 +69,7 @@
               <h2 class="font42 col-lg-12 col-md-12 col-sm-12 col-xs-12 blanco">Papillas Gerber&reg;</h2>
               <span class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
                 <p class="caps font22 blanco">Segunda etapa</p>
-                <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-                <h3 class="font42 azul outline-blanco">3x $49.90</h3>
-                <button type="button" class="btn btn-azul caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
+                <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>                
               </span>
               <img class="col-lg-5 col-md-5 col-sm-6 col-xs-6" src="00_assets/Productos_01.png">
             </div>      
@@ -82,8 +80,6 @@
               <span class="col-lg-7 col-md-7 col-sm-6 col-xs-6">
                 <p class="caps font22 blanco">Segunda etapa</p>
                 <p class="azul2">Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-                <h3 class="font42 azul outline-blanco">3x $49.90</h3>
-                <button type="button" class="btn btn-azul caps">Comprar ahora <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></button>
               </span>
               <img class="col-lg-5 col-md-5 col-sm-6 col-xs-6" src="00_assets/Productos_01.png">
             </div>

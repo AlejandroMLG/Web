@@ -6,22 +6,23 @@
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><div class="btn-pasos btn-azul3 justificado"><span class="paso_circulo">4</span> <span class="font16 hidden-xs"> Confirmar</span><span><img src="00_assets/paso4.png" class="padding16v"></span></div></div>    
   </div>
 
-  <h2 class="contenedor1140 padding16 azul">Confirmar orden</h2>  
+  
   <div class="contenedor1140 padding16">
-  <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
+  <h1 class="azul">Confirmar orden</h1>  
+  <p class="solid-font18">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tabla-confirmacion font16">
       <tbody>
         <tr>
           <td width="65" align="center" class="azul">10</td>
           <td width="167" align="center"><img src="00_assets/00_articulos/art_sm_01.png" alt=""/></td>
-          <td width="429" align="left" class="underline">PAPILLAS DE MANZANA</td>
+          <td width="429" align="left" class="underline"><a href="detalle.aspx">PAPILLAS DE MANZANA</a></td>
           <td width="185" align="right" class="azul">$11.00</td>
           <td width="144" align="center" class="azul">$ 110.0</td>
         </tr>
         <tr>
           <td width="65" align="center" class="azul">10</td>
           <td width="167" align="center"><img src="00_assets/00_articulos/art_sm_01.png" alt=""/></td>
-          <td width="429" align="left" class="underline">PAPILLAS DE MANZANA</td>
+          <td width="429" align="left" class="underline"><a href="detalle.aspx">PAPILLAS DE MANZANA</a></td>
           <td width="185" align="right" class="azul">$11.00</td>
           <td width="144" align="center" class="azul">$ 110.0</td>
         </tr>
@@ -37,7 +38,7 @@
           <td width="167" align="center">&nbsp;</td>
           <td width="429" align="left">&nbsp;</td>
           <td width="185" align="right" class="azul">DESCUENTO:</td>
-          <td width="144" align="center" class="verde">$ -60.00</td>
+          <td width="144" align="center" class="verde2">$ -60.00</td>
         </tr>
         <tr>
           <td width="65" align="center">&nbsp;</td>
@@ -51,14 +52,14 @@
   </div>
 
 
-  <div class="contenedor1140 padding16 input_resena cat-select">
+  <div class="contenedor1140 padding16 input_resena cat-select solid-font18">
     <h3 class="azul">Dirección de envío</h3>
     <label>Sra. María Victoria Pérez</label><br>
     <label>Orizaba #143 Int.17, Delegación Cuauhtémoc, Colonia Roma, Código Postal: 06700, México Distrito Federal, entre Jalapa y Tonalá.</label>
-    
+    <hr>
     <h3 class="azul">Método de envío</h3>
     <label>Normal (5 - 7 días) </label>
-    
+    <hr>
     <h3 class="azul">Método de pago I <label>Transferencia Interbancaria</label></h3>
     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
     <input type="checkbox" class="hidden" id="factura"/>

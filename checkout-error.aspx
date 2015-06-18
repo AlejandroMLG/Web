@@ -1,8 +1,8 @@
 ﻿<% Response.WriteFile("header.aspx") %>
-
-  <h2 class="contenedor1140 padding16 azul">Lo sentimos, ha ocurrido un error con tu pago</h2>  
+  
   <div class="contenedor1140 padding16">
-  <p>Tu orden no se ha completado, verifica tus datos.</p>  
+  <h1 class="azul">Lo sentimos, ha ocurrido un error con tu pago</h1>
+  <p class="solid-font18">Tu orden no se ha completado, verifica tus datos.</p>  
   </div>
   <div class="contenedor1140 padding16 overflow">
     <a href="index.aspx"><button class="caps btn btn-rosa">Intentar de nuevo</button></a>

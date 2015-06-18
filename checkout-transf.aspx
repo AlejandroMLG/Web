@@ -2,7 +2,7 @@
 
   <h2 class="contenedor1140 padding16 azul">Recibo de compra</h2>  
   <div class="contenedor1140 padding16">
-  <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>  
+  <p class="solid-font18">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>  
   <h1 class="btn-rosa text-center padding16">Número de orden: 123456</h1>
   <h3 class="azul">Detalles de la compra</h3>  
     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tabla-confirmacion font16">
@@ -33,7 +33,7 @@
           <td width="167" align="center">&nbsp;</td>
           <td width="429" align="left">&nbsp;</td>
           <td width="185" align="right" class="azul">DESCUENTO:</td>
-          <td width="144" align="center" class="verde">$ -60.00</td>
+          <td width="144" align="center" class="verde2">$ -60.00</td>
         </tr>
         <tr>
           <td width="65" align="center">&nbsp;</td>
@@ -47,7 +47,7 @@
   </div>
 
 
-  <div class="contenedor1140 padding16 input_resena">
+  <div class="contenedor1140 padding16 input_resena solid-font18">
     <h3 class="azul">Como realizar la transferencia interbancaria</h3>
     <ul>
       <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</li>
@@ -62,12 +62,12 @@
     <p><span class="azul">CLABE: </span><label>646454324425676743534</label></p>
     <p><span class="azul">Referencia numérica: </span><label>0050422</label></p>
     <p><span class="azul">Concepto de pago: </span><label>0050422</label></p>
-    <p>Una vez que realice s tu pago, recibirás un correo de confirmación cuando el banco registre tu pago.</p>
+    <p>Una vez que realices tu pago, recibirás un correo de confirmación cuando el banco registre tu pago.</p>
+    <a href="#"><button class="caps btn btn-azul">Descargar</button></a>
   </div>
 
   <hr class="container">
   <div class="contenedor1140 padding16 overflow">
-  <a href="#"><button class="caps btn btn-azul pull-left">Descargar</button></a>
   <a href="#"><button class="caps btn btn-verde pull-right">Regresar al home</button></a>
   </div>
 

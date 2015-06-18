@@ -73,6 +73,7 @@ footer{
 .margen-bottom20{ margin-bottom:20px;}
 .fondo1{background-color:#f9f9f7}
 .fondo2{ background-color:#f3f1ea;}
+.fondo-blanco{ background-color:#ffffff;}
 .caps{ text-transform:uppercase;}
 .no-caps{ text-transform:none;}
 .overflow{ overflow:hidden;}
@@ -99,7 +100,6 @@ footer{
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
-  min-height: 100%;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -114,6 +114,7 @@ h4,
 h5{
 	font-family: 'vagroundedbold';
 	}
+.tit-1{ padding:1px 16px 2px 16px;}
 
 .h_logo{padding:8px;}
 
@@ -618,6 +619,7 @@ input[type=radio]:checked + label span {
 .cat-descuento label{ margin-bottom:-5px;}
 
 .cat-prod{
+	height:396px;
 	background-color:#f9f9f7;
 	padding:16px 0px;
 	margin:0 8px 16px 8px;
@@ -658,7 +660,7 @@ input[type=radio]:checked + label span {
 	}
 	
 .opacidad-media{ opacity:0.3;}
-
+tr td a{ color:inherit;}
 
 #forma_01,
 #forma_02,

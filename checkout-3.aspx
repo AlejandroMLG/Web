@@ -176,37 +176,39 @@
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_02_body">
       <div class="btn-verde-3 padding16 overflow img-espacio">
         <p>Lorem Ipsum. Proin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
-        <img src="00_assets/00_bancos/001.png">
-        <img src="00_assets/00_bancos/002.png">
-        <img src="00_assets/00_bancos/003.png">
-        <img src="00_assets/00_bancos/004.png">
-        <img src="00_assets/00_bancos/005.png">
-        <img src="00_assets/00_bancos/006.png">
-        <img src="00_assets/00_bancos/007.png">
-        <img src="00_assets/00_bancos/008.png">
-        <img src="00_assets/00_bancos/009.png">
-        <img src="00_assets/00_bancos/010.png">
-        <img src="00_assets/00_bancos/011.png">
-        <img src="00_assets/00_bancos/012.png">
-        <img src="00_assets/00_bancos/013.png">
-        <img src="00_assets/00_bancos/014.png">
-        <img src="00_assets/00_bancos/015.png">
-        <img src="00_assets/00_bancos/016.png">
-        <img src="00_assets/00_bancos/017.png">
-        <img src="00_assets/00_bancos/018.png">
-        <img src="00_assets/00_bancos/019.png">
-        <img src="00_assets/00_bancos/020.png">
-        <img src="00_assets/00_bancos/021.png">
-        <img src="00_assets/00_bancos/022.png">
-        <img src="00_assets/00_bancos/023.png">
-        <img src="00_assets/00_bancos/024.png">
-        <img src="00_assets/00_bancos/025.png">
-        <img src="00_assets/00_bancos/026.png">
-        <img src="00_assets/00_bancos/027.png">
-        <img src="00_assets/00_bancos/028.png">
-        <img src="00_assets/00_bancos/029.png">
-        <img src="00_assets/00_bancos/030.png">
-        <img src="00_assets/00_bancos/031.png">        
+        <div class="fondo-blanco">
+          <img src="00_assets/00_bancos/001.png">
+          <img src="00_assets/00_bancos/002.png">
+          <img src="00_assets/00_bancos/003.png">
+          <img src="00_assets/00_bancos/004.png">
+          <img src="00_assets/00_bancos/005.png">
+          <img src="00_assets/00_bancos/006.png">
+          <img src="00_assets/00_bancos/007.png">
+          <img src="00_assets/00_bancos/008.png">
+          <img src="00_assets/00_bancos/009.png">
+          <img src="00_assets/00_bancos/010.png">
+          <img src="00_assets/00_bancos/011.png">
+          <img src="00_assets/00_bancos/012.png">
+          <img src="00_assets/00_bancos/013.png">
+          <img src="00_assets/00_bancos/014.png">
+          <img src="00_assets/00_bancos/015.png">
+          <img src="00_assets/00_bancos/016.png">
+          <img src="00_assets/00_bancos/017.png">
+          <img src="00_assets/00_bancos/018.png">
+          <img src="00_assets/00_bancos/019.png">
+          <img src="00_assets/00_bancos/020.png">
+          <img src="00_assets/00_bancos/021.png">
+          <img src="00_assets/00_bancos/022.png">
+          <img src="00_assets/00_bancos/023.png">
+          <img src="00_assets/00_bancos/024.png">
+          <img src="00_assets/00_bancos/025.png">
+          <img src="00_assets/00_bancos/026.png">
+          <img src="00_assets/00_bancos/027.png">
+          <img src="00_assets/00_bancos/028.png">
+          <img src="00_assets/00_bancos/029.png">
+          <img src="00_assets/00_bancos/030.png">
+          <img src="00_assets/00_bancos/031.png">   
+        </div>     
       </div>
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="forma_03_body">

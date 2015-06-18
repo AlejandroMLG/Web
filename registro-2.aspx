@@ -1,8 +1,8 @@
 ﻿<% Response.WriteFile("header.aspx") %>
 
   <div class="contenedor1140 input_resena margen-bottom20">
-    <div class="btn-azul2 padding8">
-      <h2>Completa tu información</h2>
+    <div class="btn-azul2 tit-1">
+      <h1>Completa tu información</h1>
     </div>
     <div class="fondo2 padding16 overflow cat-select">
       <h4 class="azul">Teléfono</h4>

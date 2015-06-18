@@ -1,7 +1,7 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 input_resena margen-bottom20">
-    <div class="btn-azul2 solid-font18 bold padding16">
-      <div>Ya tengo una cuenta</div>
+    <div class="btn-azul2 tit-1">
+      <h1>Ya tengo una cuenta</h1>
     </div>
     <div class="fondo2 padding16 overflow">
       <p>Ingresa tu nombre de usuario y contraseña</p>
@@ -18,8 +18,8 @@
         <a href="perfil.aspx"><button class="caps btn btn-rosa">Ingresar</button></a>
       </div>
     </div>
-    <div class="btn-azul2 padding16 solid-font18 bold">
-      <div>Registrarme</div>
+    <div class="btn-azul2 tit-1">
+      <h1 class="">Registrarme</h1>
     </div>
     <div class="fondo2 padding16 cat-select overflow">
       <p>Registrate en Comienzo Sano, Vida Sana y recibe información especializada en nutrición.</p>
