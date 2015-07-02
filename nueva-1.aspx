@@ -7,7 +7,7 @@
           <p class="solid-font18">Ingresa tu correo eléctronico para recuperar tu contraseña</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <label class="caps azul">Correo Electrónico</label><br>
+          <label class="caps">Correo Electrónico</label><br>
           <input type="email" placeholder="Ingresa tu e-mail">
         </div>        
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

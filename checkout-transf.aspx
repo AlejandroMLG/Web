@@ -1,6 +1,6 @@
 ﻿<% Response.WriteFile("header.aspx") %>
 
-  <h2 class="contenedor1140 padding16 azul">Recibo de compra</h2>  
+  <h1 class="contenedor1140 padding16 azul">Recibo de compra</h1>  
   <div class="contenedor1140 padding16">
   <p class="solid-font18">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>  
   <h1 class="btn-rosa text-center padding16">Número de orden: 123456</h1>
@@ -57,13 +57,13 @@
       <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</li>
     </ul>
     
-    <h3 class="azul">Datos para trnasferencia electrónica</h3>    
+    <h3 class="azul">Datos para transferencia electrónica</h3>    
     <p><span class="azul">Nombre del Banco: </span><label>SIS TRANSF y PAGOS (STP)</label></p>
     <p><span class="azul">CLABE: </span><label>646454324425676743534</label></p>
     <p><span class="azul">Referencia numérica: </span><label>0050422</label></p>
     <p><span class="azul">Concepto de pago: </span><label>0050422</label></p>
     <p>Una vez que realices tu pago, recibirás un correo de confirmación cuando el banco registre tu pago.</p>
-    <a href="#"><button class="caps btn btn-azul">Descargar</button></a>
+    <a href="#"><button class="caps btn-big btn-azul">Descargar</button></a>
   </div>
 
   <hr class="container">

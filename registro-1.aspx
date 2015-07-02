@@ -1,6 +1,6 @@
 ﻿<% Response.WriteFile("header.aspx") %>
   <div class="contenedor1140 input_resena margen-bottom20">
-    <div class="btn-azul2 tit-1">
+    <!--<div class="btn-azul2 tit-1">
       <h1>Ya tengo una cuenta</h1>
     </div>
     <div class="fondo2 padding16 overflow">
@@ -17,7 +17,7 @@
         <a href="nueva-1.aspx" class="underline padding8">Olvide mi contraseña</a>
         <a href="perfil.aspx"><button class="caps btn btn-rosa">Ingresar</button></a>
       </div>
-    </div>
+    </div>-->
     <div class="btn-azul2 tit-1">
       <h1 class="">Registrarme</h1>
     </div>

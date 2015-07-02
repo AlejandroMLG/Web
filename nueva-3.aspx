@@ -6,11 +6,11 @@
           <h1 class="azul">Elije una nueva contraseña</h1>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label class="caps azul">Nueva contraseña</label><br>
+          <label class="caps">Nueva contraseña</label><br>
           <input type="password" placeholder="6-12 CARACTERES">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label class="caps azul">Confirmar contraseña</label><br>
+          <label class="caps">Confirmar contraseña</label><br>
           <input type="password" placeholder="6-12 CARACTERES">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

@@ -54,7 +54,7 @@ display:none;
     height: 45px; 
     position: absolute;
     cursor: pointer;
-    z-index: 100;
+    z-index: 1;
 }
 
 .nbs-flexisel-nav-left {

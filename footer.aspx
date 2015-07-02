@@ -6,6 +6,7 @@
         <li><a href="f_contacto.aspx">Contacto</a></li>
         <li><a href="f_terminos.aspx">Términos y condiciones</a></li>
         <li>Nestlé © 2015 Todos los derechos reservados</li>
+        <li style="height:16px;" class="hidden-lg hidden-md hidden-sm"></li>
       </ul>
     </div>
   </footer>
