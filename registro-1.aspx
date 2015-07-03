@@ -89,27 +89,52 @@
       <div class="margen-bottom20" id="tu-bebe">
         <div class="btn-azul2 padding8 row">
           <h3>Tu bebé</h3>
-        </div>      
+        </div>  
         <div class="overflow">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding8">
-            <label>Sexo</label><br>
-            <input type="radio" class="hidden" name="sexo" id="s1" checked/>
-            <label for="s1" class="padding8"><span></span> Niño</label>
-            <input type="radio" class="hidden" name="sexo" id="s2"/>
-            <label for="s2" class="padding8"><span></span> Niña</label>            
+          <div class="overflow">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding8">
+              <label>Sexo</label><br>
+              <input type="radio" class="hidden" name="sexo" id="s1" checked/>
+              <label for="s1" class="padding8"><span></span> Niño</label>
+              <input type="radio" class="hidden" name="sexo" id="s2"/>
+              <label for="s2" class="padding8"><span></span> Niña</label>            
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Nombre(s):</label>
+            <input type="text" placeholder="Ingresa su nombre">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Apellidos:</label>
+            <input type="text" placeholder="Ingresa sus apellidos">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Fecha de nacimiento</label>
+            <input type="date">
           </div>
         </div>
+        <div class="overflow">
+          <div class="overflow">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding8">
+              <label>Sexo</label><br>
+              <input type="radio" class="hidden" name="sexo2" id="s3" checked/>
+              <label for="s3" class="padding8"><span></span> Niño</label>
+              <input type="radio" class="hidden" name="sexo2" id="s4"/>
+              <label for="s4" class="padding8"><span></span> Niña</label>            
+            </div>
+          </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label>Nombre(s):</label>
-          <input type="text" placeholder="Ingresa su nombre">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label>Apellidos:</label>
-          <input type="text" placeholder="Ingresa sus apellidos">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label>Fecha de nacimiento</label>
-          <input type="date">
+            <label>Nombre(s):</label>
+            <input type="text" placeholder="Ingresa su nombre">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Apellidos:</label>
+            <input type="text" placeholder="Ingresa sus apellidos">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Fecha de nacimiento</label>
+            <input type="date">
+          </div>
         </div>
         <button class="caps btn btn-rosa"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Agregar otro bebé</button>
       </div>
