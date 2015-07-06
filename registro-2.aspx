@@ -27,26 +27,34 @@
           <label>Número Interior</label><br>
           <input type="number" placeholder="17">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label>Colonia</label><br>
-          <input type="text" placeholder="Nombre de la colonia">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <label>Delegación</label><br>
-          <input type="text" placeholder="Nombre de la delegación">
-        </div>
+        
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <label>Código Postal</label><br>
           <input type="number" placeholder="06700">
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margen-bottom20">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <label>Colonia</label><br>
+          <select class="fondo1">
+            <option>Col-1</option>
+            <option>Col-2</option>
+          </select>          
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <label>Delegación</label><br>
+          <select class="fondo1">
+            <option>Del-1</option>
+            <option>Del-2</option>
+          </select>
+        </div>
+        
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <label>País</label><br>
           <select class="fondo1">
             <option>México</option>
             <option>España</option>
           </select>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margen-bottom20">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <label>Estado</label><br>
           <select class="fondo1">
             <option>Distrito Federal</option>

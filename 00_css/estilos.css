@@ -649,13 +649,14 @@ input[type=radio]:checked + label span {
 
 /*.cat-select{ margin-bottom:16px;}*/
 .cat-select select{
-	height:34px;
+	height:36px;
 	background-color:#f9f9f7;
 	border-radius:6px;
 	width:100%;
 	outline:none;
 	border:none;
 	border-bottom:solid 3px #d3d3d1;
+	margin-bottom:10px;
 	}
 	
 .precio-descuento{color:#9e0b0f; text-decoration:line-through; height:20px;}
