@@ -18,10 +18,13 @@
       <label class="verde2 font30 bold">$11.00</label>&nbsp;
       <label class="rojo2">Precio anterior: </label>
       <label class="precio-descuento">$18.00</label>
-      <p>
-        <label class="padding8">Cantidad: <input type="number" class="input-cantidad" value="1"></label>
+      <div class="margen-bottom20">
+        <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+        <input type="text" class="input-cantidad" value="99" disabled>
+        <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
+        <span>&nbsp;&nbsp;</span>
         <button type="button" class="btn btn-verde caps">AÑADIR AL CARRITO <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>
-      </p>
+      </div>
       <div class="overflow">
         <ul class="estrellas">
           <li class="star_in"></li>
@@ -30,7 +33,7 @@
           <li class="star_in"></li>
           <li class="star_out"></li>
         </ul>
-        <div class="rosa font22 line-8">&nbsp;<label>115</label> <span class="underline"><a href="#null" style="color:inherit;" onclick="jQuery('html, body').animate( { scrollTop: 900 }, 'slow' );">reseñas</a></span></div>
+        <div class="rosa font22 line-8">&nbsp;<label>115</label> <span class="underline"><a href="#resena_scroll" style="color:inherit;">reseñas</a></span></div>
       </div>
       <p>Compartir: <label class="share facebook">1k</label><label class="share twitter">200</label><label class="share pinterest">456</label></p>
     </div>
@@ -78,7 +81,7 @@
 
 <% Response.WriteFile("mas_vendidos.aspx") %>
 
-  <div class="contenedor1140 overflow padding16">
+  <div class="contenedor1140 overflow padding16" id="resena_scroll">
     <p><span class="azul font22">Reseña </span><button class="btnv2 btnv2rosa" id="resena_btn">Agregar reseña <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></button></p>
     
     <div id="resena_form">

@@ -23,17 +23,17 @@
       </a>      
       <div class="menu3_head pull-right">
         <div class="text-center menu3_carrito">
-          <label class="h_cantidad">99</label>
+          <label class="h_cantidad ">99</label>
           <img src="00_assets/h_carrito.png"/>
-          <div class="blanco hidden-xs">¡Mi Carrito! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>
-          <p class="blanco hidden-xs">Total: $<label>9,999.00</label></p>
+          <div class="blanco hidden-xs">¡Mi Carrito! <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>          
+          <div class="blanco hidden-xs"><span>Total: $</span><label>9,999.00</label></div>
         </div>
       </div>
 
       <div class=" menu2_head pull-right">
         <div class=" menu2_form">
           <figure></figure>
-        </div>                  
+        </div>
         <form class="input_resena padding16 menu2_visible_form" method="post">
           <div>
             <label class="azul bold text-uppercase">Correo <span class="rojo" title="Este campo es obligatorio.">*</span></label><br>
@@ -64,14 +64,16 @@
       <ul>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -80,14 +82,16 @@
         </li>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -96,14 +100,16 @@
         </li>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -113,10 +119,10 @@
       </ul>
       <div class="padding8">      
         <div class="text-right font22">
-          <a href="checkout-1.aspx" class="azul pull-left">VER EL CARRITO <span class="glyphicon glyphicon-plus-sign"></span></a>
-          <label>Total:</label><label>$199.00</label><br>
-          <button class="caps btn-big btn-azul2">Continuar con checkout</button>
-          <p class="font12 padding8 caps">Compra mínima debe ser de $150.</p>
+          <a href="checkout-1.aspx" class="azul pull-left underline">VER EL CARRITO <span class="glyphicon glyphicon-plus-sign"></span></a>
+          <label class="spacing2px">Total: $</label><label class="spacing2px">199.00</label><br>
+          <button class="caps btn-big btn-azul2 margen-bottom20">Continuar con checkout</button>
+          <div class="font12  caps spacing2px">Compra mínima debe ser de $150.</div>
         </div>
       </div>
     </div>

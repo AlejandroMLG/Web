@@ -11,14 +11,16 @@
     <ul class="contenedor1140">
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
+          <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+          <input type="text" class="input-cantidad" value="99" disabled>
+          <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
         </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-2">
           <label class="azul">$11.00</label>
         </div>
         <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -27,14 +29,16 @@
       </li>
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
+          <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+          <input type="text" class="input-cantidad" value="99" disabled>
+          <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
         </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-2">
           <label class="azul">$11.00</label>
         </div>
         <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -43,14 +47,16 @@
       </li>
       <li>
         <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3 caps">
           <label>Papilla de manzana</label><br>
           <label class="azul">$11.00</label>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
+          <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+          <input type="text" class="input-cantidad" value="99" disabled>
+          <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
         </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-2">
           <label class="azul">$11.00</label>
         </div>
         <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">

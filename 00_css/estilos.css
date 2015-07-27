@@ -85,6 +85,7 @@ footer{
     -2px 2px 1px #fff,
      2px 2px 1px #fff;
    }
+.spacing2px{ letter-spacing:2px;}
 
 .ayuda-lateral{
 	position:fixed;
@@ -177,9 +178,8 @@ h5{
 
 .h_carrito ul li{
 	padding:8px; 
-	height:86px; 
 	overflow:hidden;
-	border-bottom:solid 1px #65ae32;
+	border-bottom:solid 1px #9ccd74;
 	}
 
 .b_carrito ul li{
@@ -235,7 +235,7 @@ h5{
 .menu3_carrito{
 	position: absolute; 
 	top: 55%; 
-	left: 50%; 
+	left: 49%; 
 	transform: translate(-50%, -50%);
 	}
 .menu3_carrito_visible{
@@ -512,9 +512,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
 }
 
 .input-cantidad{
-	height: 35px;
-	width: 50px;
-	border-radius: 4px;
+	height: 38px;
+	width: 30px;
 	background-color: #ebebeb;
 	color: #959595;
 	text-align: center;
@@ -524,7 +523,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8888', end
     border:none;
     border-bottom: solid 3px #c5c5c5;
 	outline:0px;
-	margin-right:16px;
+	float:left;
+	}
+	
+.flecha-left{
+	border-right: solid 2px #c5c5c5;
+	border-bottom-left-radius:6px; 
+	border-top-left-radius:6px; 
+	width:28px;
+	}
+.flecha-right{
+	border-left: solid 2px #c5c5c5;
+	border-bottom-right-radius:6px; 
+	border-top-right-radius:6px;
+	width:28px;
 	}
 
 .resena_img{

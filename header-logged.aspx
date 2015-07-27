@@ -41,89 +41,81 @@
           <div class="pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></div>
           <h4 class="modal-title" id="myModalLabel">Orden #12345678</h4>
         </div>
-          <div class="modal-body">
-            <p class="caps">Fecha: <label>12/05/15</label></p>
-            <p class="caps">Estatus: <label>Entregado</label></p>
-            <p class="caps">Método de pago: <label>Tarjeta de crédito</label></p>
-<div class=" fondo1 radius-bottom radius-top">
-  <div class="b_carrito">
-    <ul>
-      <li>
-        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
-          <label>Papilla de manzana</label><br>
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1" disabled>
-        </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
-          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
-        </div>
-      </li>
-      <li>
-        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
-          <label>Papilla de manzana</label><br>
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1" disabled>
-        </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
-          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
-        </div>
-      </li>
-      <li>
-        <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-        <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
-          <label>Papilla de manzana</label><br>
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-          <input type="number" class="input-cantidad" value="1" disabled>
-        </div>
-        <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-          <label class="azul">$11.00</label>
-        </div>
-        <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
-          <span class="glyphicon glyphicon-remove-sign rosa" aria-hidden="true"></span>
-        </div>
-      </li>
-    </ul>    
-  </div>
-  
-  <div class="contenedor1140 overflow">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">      
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 caps padding16">
-      <table width="100%" border="1" cellspacing="0" cellpadding="0" class="tabla-checkout azul">
-        <tbody>
-          <tr>
-            <td>Subtotal</td>
-            <td>$<label>166.00</label></td>
-          </tr>
-          <tr>
-            <td>Descuento</td>
-            <td class="verde2">-$<label>60.00</label></td>
-          </tr>
-          <tr>
-            <td>Total</td>
-            <td>$<label>106.00</label></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
+        <div class="modal-body">
+          <p class="caps">Fecha: <label>12/05/15</label></p>
+          <p class="caps">Estatus: <label>Entregado</label></p>
+          <p class="caps">Método de pago: <label>Tarjeta de crédito</label></p>
+          
+          <div class=" fondo1 radius-bottom radius-top">
+            <div class="b_carrito">
+              <ul>
+                <li>
+                  <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+                  <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+                    <label>Papilla de manzana</label><br>
+                    <label class="azul">$11.00</label>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+                    <input type="text" class="input-cantidad" value="1" disabled>
+                  </div>
+                  <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <label class="azul">$11.00</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+                  <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+                    <label>Papilla de manzana</label><br>
+                    <label class="azul">$11.00</label>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+                    <input type="text" class="input-cantidad" value="1" disabled>
+                  </div>
+                  <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <label class="azul">$11.00</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
+                  <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4 caps">
+                    <label>Papilla de manzana</label><br>
+                    <label class="azul">$11.00</label>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+                    <input type="text" class="input-cantidad" value="1" disabled>
+                  </div>
+                  <div class="font30 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                    <label class="azul">$11.00</label>
+                  </div>
+                </li>
+              </ul>    
+            </div>
+            
+            <div class="contenedor1140 overflow">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">      
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 caps padding16">
+                <table width="100%" border="1" cellspacing="0" cellpadding="0" class="tabla-checkout azul">
+                  <tbody>
+                    <tr>
+                      <td>Subtotal</td>
+                      <td>$<label>166.00</label></td>
+                    </tr>
+                    <tr>
+                      <td>Descuento</td>
+                      <td class="verde2">-$<label>60.00</label></td>
+                    </tr>
+                    <tr>
+                      <td>Total</td>
+                      <td>$<label>106.00</label></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -165,14 +157,16 @@
       <ul>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -181,14 +175,16 @@
         </li>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
@@ -197,14 +193,16 @@
         </li>
         <li>
           <div class="col-lg-2 col-md-1 col-sm-1 hidden-xs"><img src="00_assets/00_articulos/art_sm_01.png"></div>
-          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-4">
+          <div class="font22 col-lg-4 col-md-5 col-sm-5 col-xs-3">
             <label class="font16">Papilla de manzana</label><br>
             <label>$11.00</label>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
-            <input type="number" class="input-cantidad" value="1">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+            <button class="input-cantidad flecha-left"><span class="glyphicon glyphicon-minus"></span></button>
+            <input type="text" class="input-cantidad" value="99" disabled>
+            <button class="input-cantidad flecha-right"><span class="glyphicon glyphicon-plus"></span></button>
           </div>
-          <div class="font22 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="font22 col-lg-2 col-md-2 col-sm-2 col-xs-2">
             <label>$11.00</label>
           </div>
           <div class="font30 col-lg-1 col-md-1 col-sm-1 col-xs-2">
